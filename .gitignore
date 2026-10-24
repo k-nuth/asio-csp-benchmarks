@@ -1,0 +1,6 @@
+/build*/
+/results*/
+*.log
+*.ips
+*.dSYM/
+__pycache__/

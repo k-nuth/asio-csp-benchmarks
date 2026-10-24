@@ -1,0 +1,7 @@
+/build/
+/rust/target/
+/results*/
+# Raw diagnostics stay in local evidence, outside pull requests.
+/observations/**/*.log
+/observations/**/profile-*.txt
+/observations/**/sample-*.txt

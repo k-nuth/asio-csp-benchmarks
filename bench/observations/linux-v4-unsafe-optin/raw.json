@@ -1,0 +1,3530 @@
+[
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 275131305,
+    "ns_per_message": 305.70145,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 19076287,
+    "ns_per_message": 63.58762333333333,
+    "counts": [
+      100072,
+      99549,
+      100379
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 268848306,
+    "ns_per_message": 298.72034,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 76707997,
+    "ns_per_message": 85.23110777777778,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 77919947,
+    "ns_per_message": 86.5777188888889,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 191421939,
+    "ns_per_message": 212.69104333333334,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 78039377,
+    "ns_per_message": 86.7104188888889,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 86267896,
+    "ns_per_message": 95.85321777777777,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 11063228,
+    "ns_per_message": 36.877426666666665,
+    "counts": [
+      99804,
+      100290,
+      99906
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 84095547,
+    "ns_per_message": 93.43949666666667,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 111709321,
+    "ns_per_message": 124.12146777777778,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 19225427,
+    "ns_per_message": 64.08475666666666,
+    "counts": [
+      100238,
+      99596,
+      100166
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 39609163,
+    "ns_per_message": 44.01018111111111,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 245668660,
+    "ns_per_message": 272.9651777777778,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 476557502,
+    "ns_per_message": 529.5083355555555,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 15618008,
+    "ns_per_message": 52.060026666666666,
+    "counts": [
+      99184,
+      100423,
+      100393
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 480894972,
+    "ns_per_message": 534.3277466666667,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 263578977,
+    "ns_per_message": 292.86553,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 274201845,
+    "ns_per_message": 304.6687166666667,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 8932299,
+    "ns_per_message": 29.77433,
+    "counts": [
+      99822,
+      100066,
+      100112
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 459040845,
+    "ns_per_message": 510.04538333333335,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 260612557,
+    "ns_per_message": 289.5695077777778,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 12866428,
+    "ns_per_message": 42.88809333333333,
+    "counts": [
+      99897,
+      100215,
+      99888
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 52869292,
+    "ns_per_message": 58.74365777777778,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 153638115,
+    "ns_per_message": 170.70901666666666,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 62663340,
+    "ns_per_message": 69.62593333333334,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 12735498,
+    "ns_per_message": 42.45166,
+    "counts": [
+      99721,
+      100219,
+      100060
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 220239434,
+    "ns_per_message": 244.71048222222223,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 63982820,
+    "ns_per_message": 71.09202222222223,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 279116774,
+    "ns_per_message": 310.1297488888889,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 179220280,
+    "ns_per_message": 199.13364444444446,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 69807359,
+    "ns_per_message": 77.56373222222223,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 52542821,
+    "ns_per_message": 58.38091222222222,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 8949118,
+    "ns_per_message": 29.830393333333333,
+    "counts": [
+      100333,
+      100117,
+      99550
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 264833807,
+    "ns_per_message": 294.25978555555554,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 92571535,
+    "ns_per_message": 102.85726111111111,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 91160245,
+    "ns_per_message": 101.28916111111111,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 52554352,
+    "ns_per_message": 58.393724444444445,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 92764094,
+    "ns_per_message": 103.07121555555555,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 63274560,
+    "ns_per_message": 70.30506666666666,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 474397202,
+    "ns_per_message": 527.1080022222222,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 65821320,
+    "ns_per_message": 73.1348,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 8565078,
+    "ns_per_message": 28.55026,
+    "counts": [
+      100278,
+      100027,
+      99695
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 8731189,
+    "ns_per_message": 29.103963333333333,
+    "counts": [
+      99736,
+      100105,
+      100159
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 12802287,
+    "ns_per_message": 42.67429,
+    "counts": [
+      100118,
+      99809,
+      100073
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 62768420,
+    "ns_per_message": 69.74268888888889,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 8502378,
+    "ns_per_message": 28.34126,
+    "counts": [
+      99773,
+      100295,
+      99932
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 8872689,
+    "ns_per_message": 29.57563,
+    "counts": [
+      100126,
+      100175,
+      99699
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 70174109,
+    "ns_per_message": 77.97123222222223,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 482085120,
+    "ns_per_message": 535.6501333333333,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 154314855,
+    "ns_per_message": 171.46095,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 467779093,
+    "ns_per_message": 519.7545477777778,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 13479897,
+    "ns_per_message": 44.93299,
+    "counts": [
+      99992,
+      100082,
+      99926
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 279869224,
+    "ns_per_message": 310.9658044444445,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 39170943,
+    "ns_per_message": 43.52327,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 15699338,
+    "ns_per_message": 52.33112666666667,
+    "counts": [
+      100097,
+      100141,
+      99762
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 281189673,
+    "ns_per_message": 312.43297,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 480116231,
+    "ns_per_message": 533.4624788888889,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 52398781,
+    "ns_per_message": 58.22086777777778,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 70295648,
+    "ns_per_message": 78.10627555555556,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 262406277,
+    "ns_per_message": 291.56253,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 8760208,
+    "ns_per_message": 29.200693333333334,
+    "counts": [
+      100517,
+      99997,
+      99486
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 85996886,
+    "ns_per_message": 95.55209555555555,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 12924198,
+    "ns_per_message": 43.08066,
+    "counts": [
+      99850,
+      100096,
+      100054
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 8950428,
+    "ns_per_message": 29.83476,
+    "counts": [
+      99915,
+      99968,
+      100117
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 39390614,
+    "ns_per_message": 43.76734888888889,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 92267715,
+    "ns_per_message": 102.51968333333333,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 12631258,
+    "ns_per_message": 42.104193333333335,
+    "counts": [
+      99845,
+      100250,
+      99905
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 482620260,
+    "ns_per_message": 536.2447333333333,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 16000847,
+    "ns_per_message": 53.33615666666667,
+    "counts": [
+      100214,
+      100188,
+      99598
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 119052660,
+    "ns_per_message": 132.28073333333333,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 16156267,
+    "ns_per_message": 53.85422333333333,
+    "counts": [
+      99866,
+      99706,
+      100428
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 269320736,
+    "ns_per_message": 299.2452622222222,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 76696337,
+    "ns_per_message": 85.21815222222222,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 47873222,
+    "ns_per_message": 53.19246888888889,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 111624881,
+    "ns_per_message": 124.02764555555555,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 565111036,
+    "ns_per_message": 627.9011511111111,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 327450506,
+    "ns_per_message": 363.83389555555556,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 77101077,
+    "ns_per_message": 85.66786333333333,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 15560797,
+    "ns_per_message": 51.869323333333334,
+    "counts": [
+      99970,
+      100014,
+      100016
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 10777858,
+    "ns_per_message": 35.92619333333333,
+    "counts": [
+      99956,
+      100293,
+      99751
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 16088318,
+    "ns_per_message": 53.62772666666667,
+    "counts": [
+      99416,
+      100201,
+      100383
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 68508459,
+    "ns_per_message": 76.12051,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 90493845,
+    "ns_per_message": 100.54871666666666,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 117860510,
+    "ns_per_message": 130.95612222222223,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 299121250,
+    "ns_per_message": 332.3569444444444,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 68755569,
+    "ns_per_message": 76.39507666666667,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 77205527,
+    "ns_per_message": 85.78391888888889,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 116550940,
+    "ns_per_message": 129.50104444444443,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 270186185,
+    "ns_per_message": 300.2068722222222,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 566614166,
+    "ns_per_message": 629.5712955555556,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 114322041,
+    "ns_per_message": 127.02449,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 10797858,
+    "ns_per_message": 35.99286,
+    "counts": [
+      100475,
+      99993,
+      99532
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 189091298,
+    "ns_per_message": 210.10144222222223,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 11054238,
+    "ns_per_message": 36.84746,
+    "counts": [
+      100114,
+      99774,
+      100112
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 86855606,
+    "ns_per_message": 96.50622888888888,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 276160015,
+    "ns_per_message": 306.8444611111111,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 16274298,
+    "ns_per_message": 54.24766,
+    "counts": [
+      99914,
+      100269,
+      99817
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 14803738,
+    "ns_per_message": 49.34579333333333,
+    "counts": [
+      99870,
+      100227,
+      99903
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 69728498,
+    "ns_per_message": 77.47610888888889,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 150653635,
+    "ns_per_message": 167.39292777777777,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 220235833,
+    "ns_per_message": 244.70648111111112,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 12843738,
+    "ns_per_message": 42.81246,
+    "counts": [
+      100276,
+      100058,
+      99666
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 248757168,
+    "ns_per_message": 276.39685333333335,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 13338218,
+    "ns_per_message": 44.460726666666666,
+    "counts": [
+      99856,
+      100084,
+      100060
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 62516509,
+    "ns_per_message": 69.46278777777778,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 175223151,
+    "ns_per_message": 194.69239,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 70241588,
+    "ns_per_message": 78.04620888888888,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 12506338,
+    "ns_per_message": 41.68779333333333,
+    "counts": [
+      100205,
+      100461,
+      99334
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 151184684,
+    "ns_per_message": 167.98298222222223,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 70368229,
+    "ns_per_message": 78.1869211111111,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 220765154,
+    "ns_per_message": 245.29461555555557,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 466626093,
+    "ns_per_message": 518.4734366666667,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 153787844,
+    "ns_per_message": 170.8753822222222,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 8860198,
+    "ns_per_message": 29.533993333333335,
+    "counts": [
+      99555,
+      100432,
+      100013
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 220497363,
+    "ns_per_message": 244.99707,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 150780935,
+    "ns_per_message": 167.53437222222223,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 480852680,
+    "ns_per_message": 534.2807555555555,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 280646504,
+    "ns_per_message": 311.82944888888886,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 248698398,
+    "ns_per_message": 276.3315533333333,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 248767418,
+    "ns_per_message": 276.4082422222222,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 93315725,
+    "ns_per_message": 103.6841388888889,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 232487421,
+    "ns_per_message": 258.3193566666667,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 8614578,
+    "ns_per_message": 28.71526,
+    "counts": [
+      99941,
+      100038,
+      100021
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 63068439,
+    "ns_per_message": 70.07604333333333,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 92647865,
+    "ns_per_message": 102.94207222222222,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 151561835,
+    "ns_per_message": 168.40203888888888,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 53619611,
+    "ns_per_message": 59.57734555555555,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 15447787,
+    "ns_per_message": 51.492623333333334,
+    "counts": [
+      99700,
+      99836,
+      100464
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 153184175,
+    "ns_per_message": 170.2046388888889,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 278134084,
+    "ns_per_message": 309.0378711111111,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 479227139,
+    "ns_per_message": 532.4745988888889,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 38934784,
+    "ns_per_message": 43.26087111111111,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 217756513,
+    "ns_per_message": 241.9516811111111,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 176537150,
+    "ns_per_message": 196.15238888888888,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 154509584,
+    "ns_per_message": 171.67731555555557,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 38971764,
+    "ns_per_message": 43.30196,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 63695629,
+    "ns_per_message": 70.77292111111112,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 15476327,
+    "ns_per_message": 51.587756666666664,
+    "counts": [
+      99839,
+      100035,
+      100126
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 12701458,
+    "ns_per_message": 42.33819333333334,
+    "counts": [
+      99715,
+      100057,
+      100228
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 92350714,
+    "ns_per_message": 102.61190444444445,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 154874584,
+    "ns_per_message": 172.0828711111111,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 12602228,
+    "ns_per_message": 42.00742666666667,
+    "counts": [
+      99792,
+      100118,
+      100090
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 176074341,
+    "ns_per_message": 195.63815666666667,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 156582223,
+    "ns_per_message": 173.98024777777778,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 215958254,
+    "ns_per_message": 239.95361555555556,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 39671643,
+    "ns_per_message": 44.07960333333333,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 69837378,
+    "ns_per_message": 77.59708666666667,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 251463758,
+    "ns_per_message": 279.4041755555556,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 153766614,
+    "ns_per_message": 170.85179333333335,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 300000,
+    "ns": 65881729,
+    "ns_per_message": 73.2019211111111,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 460148622,
+    "ns_per_message": 511.2762466666667,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 12816478,
+    "ns_per_message": 42.72159333333333,
+    "counts": [
+      99538,
+      100362,
+      100100
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 216647384,
+    "ns_per_message": 240.71931555555557,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 263593275,
+    "ns_per_message": 292.88141666666667,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 300000,
+    "ns": 62755649,
+    "ns_per_message": 69.7284988888889,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 13228428,
+    "ns_per_message": 44.09476,
+    "counts": [
+      100603,
+      99741,
+      99656
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "ready",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 180019690,
+    "ns_per_message": 200.02187777777777,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 300000,
+    "ns": 282021563,
+    "ns_per_message": 313.3572922222222,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 300000,
+    "ns": 221325353,
+    "ns_per_message": 245.9170588888889,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 259763457,
+    "ns_per_message": 288.6260633333333,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 71697477,
+    "ns_per_message": 79.66386333333334,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 12586598,
+    "ns_per_message": 41.955326666666664,
+    "counts": [
+      99605,
+      100108,
+      100287
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 12779768,
+    "ns_per_message": 42.59922666666667,
+    "counts": [
+      100661,
+      99672,
+      99667
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 175935040,
+    "ns_per_message": 195.48337777777778,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 300000,
+    "ns": 15532877,
+    "ns_per_message": 51.77625666666667,
+    "counts": [
+      99869,
+      99925,
+      100206
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-bench",
+      "mixed",
+      "300000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 175899191,
+    "ns_per_message": 195.44354555555554,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 300000,
+    "ns": 248572879,
+    "ns_per_message": 276.1920877777778,
+    "counts": [
+      300000,
+      300000,
+      300000
+    ],
+    "command": [
+      "/home/fernando/.local/share/kth-asio-bench/runs/paired-r3-20261024-2058Z/build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "300000",
+      "1",
+      "4"
+    ]
+  }
+]

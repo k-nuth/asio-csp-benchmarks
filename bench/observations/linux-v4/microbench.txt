@@ -1,0 +1,30 @@
+std::shuffle(3), per-worker generator             3.74 ns
+fisher-yates(3), 32-bit multiply-high (biased draw)    5.11 ns
+fisher-yates(3), exact draws, per-operation generator    3.05 ns
+std::mutex lock+unlock                            3.09 ns
+any_io_executor copy+destroy                      2.31 ns
+any_io_executor ==                                3.52 ns
+receive(channel) construct+destroy                3.93 ns
+three-case tuple construct+destroy                8.95 ns
+three-case tuple move                             8.91 ns
+completion emplace (one move) + move out         12.48 ns
+ready_budget_exhausted()                          1.14 ns
+try_ready(3 ready) + refill                      33.12 ns
+try_ready(3 ready, biased) + refill              20.34 ns
+try_receive + try_send (one channel)             10.87 ns
+floor: 3 owning handles + random channel pop/push   12.49 ns
+floor: one executor turn (post + run_one)        34.03 ns
+floor: one continuation turn (defer + run_one)   32.97 ns
+one continuation turn via any_io_executor (defer + run_one)   45.32 ns
+one continuation turn, preallocated scheduler operation   23.44 ns
+in situ: typed defer of a small lambda per turn   10.76 ns
+in situ: preallocated operation re-queued per turn    7.10 ns
+in situ: inline dispatch via any_io_executor      6.42 ns
+in situ: inline dispatch via io_context executor    0.40 ns
+cancellation slot assign + clear (16-byte handler)    3.36 ns
+strand: make_strand construct+destroy            19.88 ns
+strand: one strand turn (post + run)             89.89 ns
+floor: recycled owned operation construct+destroy   81.53 ns
+floor: register + withdraw one case under its mutex   83.22 ns
+reusable state: register + withdraw one case under its mutex    8.66 ns
+reusable state: ready probe (3 ready) + refill   21.57 ns

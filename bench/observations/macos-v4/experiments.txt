@@ -1,0 +1,25 @@
+# dispatch_micro.cpp on the current (fourth-iteration) header, Mac, after the series
+E1 fold, identity order (predictable, same channel)          15.89 ns
+E2 fold, deterministic rotation (predictable pattern)        11.34 ns
+E3 fold, random start only (one draw, no shuffle)            16.78 ns
+E4 fold, full shuffle (as the header)                        20.56 ns
+E5 table, identity order                                     11.41 ns
+E6 table, deterministic rotation                             11.06 ns
+E7 table, random start only                                  16.99 ns
+E8 table, full shuffle                                       20.35 ns
+E1 fold, identity order (predictable, same channel)          11.74 ns
+E2 fold, deterministic rotation (predictable pattern)        11.36 ns
+E3 fold, random start only (one draw, no shuffle)            16.66 ns
+E4 fold, full shuffle (as the header)                        20.63 ns
+E5 table, identity order                                     11.25 ns
+E6 table, deterministic rotation                             11.17 ns
+E7 table, random start only                                  16.93 ns
+E8 table, full shuffle                                       20.38 ns
+reference: shuffle only                                       7.40 ns
+reference: try_ready (header) + refill                       22.07 ns
+
+# lock_micro.cpp, Mac
+std::mutex lock+unlock                            5.20 ns
+atomic spin lock+unlock                           3.62 ns
+two std::mutex pairs (probe + try_send)           6.48 ns
+two spin pairs (probe + try_send)                 7.30 ns

@@ -1,0 +1,21 @@
+std::shuffle(3), per-worker generator            11.24 ns
+fisher-yates(3), 32-bit multiply-high             3.33 ns
+retired_operations construct+destroy              1.58 ns
+std::mutex lock+unlock                            3.24 ns
+any_io_executor copy+destroy                      1.21 ns
+any_io_executor ==                                1.72 ns
+receive(channel) construct+destroy                2.68 ns
+three-case tuple construct+destroy                5.56 ns
+three-case tuple move                             5.55 ns
+completion emplace (one move) + move out          9.77 ns
+ready_budget_exhausted()                          1.28 ns
+try_ready(3 ready) + refill                      29.63 ns
+try_ready(3 ready, biased) + refill              17.57 ns
+try_receive + try_send (one channel)             11.60 ns
+floor: 3 owning handles + random channel pop/push   10.10 ns
+floor: one executor turn (post + run_one)        32.93 ns
+floor: one continuation turn (defer + run_one)   32.14 ns
+strand: make_strand construct+destroy            26.11 ns
+strand: one strand turn (post + run)            106.16 ns
+floor: recycled owned operation construct+destroy   56.33 ns
+floor: register + withdraw one case under its mutex   66.30 ns

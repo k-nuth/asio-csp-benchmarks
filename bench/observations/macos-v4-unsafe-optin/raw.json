@@ -1,0 +1,3530 @@
+[
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 66310334,
+    "ns_per_message": 221.03444666666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3506583,
+    "ns_per_message": 35.06583,
+    "counts": [
+      33473,
+      33212,
+      33315
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 59866208,
+    "ns_per_message": 199.55402666666666,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 16136000,
+    "ns_per_message": 53.78666666666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 16307375,
+    "ns_per_message": 54.35791666666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 40799209,
+    "ns_per_message": 135.99736333333334,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 16433792,
+    "ns_per_message": 54.77930666666666,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 22467459,
+    "ns_per_message": 74.89153,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 2376750,
+    "ns_per_message": 23.7675,
+    "counts": [
+      33480,
+      33245,
+      33275
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 41441375,
+    "ns_per_message": 138.13791666666665,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 42850042,
+    "ns_per_message": 142.83347333333333,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3542625,
+    "ns_per_message": 35.42625,
+    "counts": [
+      33235,
+      33396,
+      33369
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 10654459,
+    "ns_per_message": 35.51486333333333,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 152860125,
+    "ns_per_message": 509.53375,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 245953250,
+    "ns_per_message": 819.8441666666666,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3500875,
+    "ns_per_message": 35.00875,
+    "counts": [
+      33297,
+      33420,
+      33283
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 240841333,
+    "ns_per_message": 802.8044433333333,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 154598083,
+    "ns_per_message": 515.3269433333334,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 135337500,
+    "ns_per_message": 451.125,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 2450834,
+    "ns_per_message": 24.50834,
+    "counts": [
+      33757,
+      33072,
+      33171
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 238805666,
+    "ns_per_message": 796.0188866666666,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 154315916,
+    "ns_per_message": 514.3863866666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3523167,
+    "ns_per_message": 35.23167,
+    "counts": [
+      33339,
+      33566,
+      33095
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 30840667,
+    "ns_per_message": 102.80222333333333,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 40786708,
+    "ns_per_message": 135.95569333333333,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 16473875,
+    "ns_per_message": 54.91291666666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3625625,
+    "ns_per_message": 36.25625,
+    "counts": [
+      33266,
+      33320,
+      33414
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 60079083,
+    "ns_per_message": 200.26361,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 16492791,
+    "ns_per_message": 54.97597,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 142990083,
+    "ns_per_message": 476.63361,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 97262416,
+    "ns_per_message": 324.20805333333334,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 39724625,
+    "ns_per_message": 132.41541666666666,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 30836792,
+    "ns_per_message": 102.78930666666666,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 2466458,
+    "ns_per_message": 24.66458,
+    "counts": [
+      33433,
+      33485,
+      33082
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 153992458,
+    "ns_per_message": 513.3081933333333,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 31831500,
+    "ns_per_message": 106.105,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 44005167,
+    "ns_per_message": 146.68389,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 31018458,
+    "ns_per_message": 103.39486,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 31793666,
+    "ns_per_message": 105.97888666666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 16256291,
+    "ns_per_message": 54.18763666666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 241102083,
+    "ns_per_message": 803.67361,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 39287041,
+    "ns_per_message": 130.95680333333334,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 2450375,
+    "ns_per_message": 24.50375,
+    "counts": [
+      33227,
+      33340,
+      33433
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 2495958,
+    "ns_per_message": 24.95958,
+    "counts": [
+      33375,
+      33276,
+      33349
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3691375,
+    "ns_per_message": 36.91375,
+    "counts": [
+      33187,
+      33518,
+      33295
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 16296750,
+    "ns_per_message": 54.3225,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 2484417,
+    "ns_per_message": 24.84417,
+    "counts": [
+      33462,
+      33252,
+      33286
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 2468458,
+    "ns_per_message": 24.68458,
+    "counts": [
+      33360,
+      33393,
+      33247
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 22270916,
+    "ns_per_message": 74.23638666666666,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 239584208,
+    "ns_per_message": 798.6140266666666,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 41251083,
+    "ns_per_message": 137.50361,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 238305833,
+    "ns_per_message": 794.3527766666666,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3546417,
+    "ns_per_message": 35.46417,
+    "counts": [
+      33272,
+      33508,
+      33220
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 140261041,
+    "ns_per_message": 467.53680333333335,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 10371208,
+    "ns_per_message": 34.57069333333333,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3578333,
+    "ns_per_message": 35.78333,
+    "counts": [
+      33404,
+      33474,
+      33122
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 144251542,
+    "ns_per_message": 480.83847333333335,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 238323791,
+    "ns_per_message": 794.4126366666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 30385292,
+    "ns_per_message": 101.28430666666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 22709292,
+    "ns_per_message": 75.69764,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 156753083,
+    "ns_per_message": 522.5102766666666,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 2460916,
+    "ns_per_message": 24.60916,
+    "counts": [
+      33485,
+      33418,
+      33097
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 42545834,
+    "ns_per_message": 141.81944666666666,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3602542,
+    "ns_per_message": 36.02542,
+    "counts": [
+      33419,
+      33485,
+      33096
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 2486792,
+    "ns_per_message": 24.86792,
+    "counts": [
+      33367,
+      33090,
+      33543
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 10540709,
+    "ns_per_message": 35.13569666666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 31982792,
+    "ns_per_message": 106.60930666666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3542750,
+    "ns_per_message": 35.4275,
+    "counts": [
+      33451,
+      33451,
+      33098
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 239664084,
+    "ns_per_message": 798.88028,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3616125,
+    "ns_per_message": 36.16125,
+    "counts": [
+      33314,
+      33371,
+      33315
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 31709667,
+    "ns_per_message": 105.69889,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3561708,
+    "ns_per_message": 35.61708,
+    "counts": [
+      33319,
+      33078,
+      33603
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 60428584,
+    "ns_per_message": 201.42861333333335,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 16283541,
+    "ns_per_message": 54.27847,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 10478416,
+    "ns_per_message": 34.92805333333333,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 43742000,
+    "ns_per_message": 145.80666666666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 240695541,
+    "ns_per_message": 802.31847,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 154001709,
+    "ns_per_message": 513.33903,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 16387625,
+    "ns_per_message": 54.625416666666666,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3598709,
+    "ns_per_message": 35.98709,
+    "counts": [
+      33308,
+      33363,
+      33329
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 2507750,
+    "ns_per_message": 25.0775,
+    "counts": [
+      33384,
+      33281,
+      33335
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3573584,
+    "ns_per_message": 35.73584,
+    "counts": [
+      33465,
+      33150,
+      33385
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 30801875,
+    "ns_per_message": 102.67291666666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 38546625,
+    "ns_per_message": 128.48875,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 42178959,
+    "ns_per_message": 140.59653,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 153105417,
+    "ns_per_message": 510.35139,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 29297083,
+    "ns_per_message": 97.65694333333333,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 16349167,
+    "ns_per_message": 54.49722333333333,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 43060292,
+    "ns_per_message": 143.53430666666668,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 60537541,
+    "ns_per_message": 201.79180333333332,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 232214875,
+    "ns_per_message": 774.0495833333333,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 31903042,
+    "ns_per_message": 106.34347333333334,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 2429958,
+    "ns_per_message": 24.29958,
+    "counts": [
+      33200,
+      33550,
+      33250
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 41311708,
+    "ns_per_message": 137.70569333333333,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 2406125,
+    "ns_per_message": 24.06125,
+    "counts": [
+      33359,
+      33502,
+      33139
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 22862417,
+    "ns_per_message": 76.20805666666666,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 60259583,
+    "ns_per_message": 200.86527666666666,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3560000,
+    "ns_per_message": 35.6,
+    "counts": [
+      33135,
+      33550,
+      33315
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3576000,
+    "ns_per_message": 35.76,
+    "counts": [
+      33706,
+      33247,
+      33047
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 39781958,
+    "ns_per_message": 132.60652666666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 41308333,
+    "ns_per_message": 137.69444333333334,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 60377167,
+    "ns_per_message": 201.25722333333334,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3668459,
+    "ns_per_message": 36.68459,
+    "counts": [
+      33200,
+      33154,
+      33646
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 150500250,
+    "ns_per_message": 501.6675,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3600167,
+    "ns_per_message": 36.00167,
+    "counts": [
+      33154,
+      33585,
+      33261
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 16239792,
+    "ns_per_message": 54.13264,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 98546375,
+    "ns_per_message": 328.48791666666665,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 22598750,
+    "ns_per_message": 75.32916666666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3606417,
+    "ns_per_message": 36.06417,
+    "counts": [
+      33221,
+      33284,
+      33495
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 41287333,
+    "ns_per_message": 137.62444333333335,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 22576750,
+    "ns_per_message": 75.25583333333333,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 60103250,
+    "ns_per_message": 200.34416666666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 241061709,
+    "ns_per_message": 803.53903,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 41364250,
+    "ns_per_message": 137.88083333333333,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 2447000,
+    "ns_per_message": 24.47,
+    "counts": [
+      33098,
+      33266,
+      33636
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 60223708,
+    "ns_per_message": 200.74569333333332,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 41201959,
+    "ns_per_message": 137.33986333333334,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 241827417,
+    "ns_per_message": 806.09139,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 118565708,
+    "ns_per_message": 395.21902666666665,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 137534333,
+    "ns_per_message": 458.44777666666664,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 145155292,
+    "ns_per_message": 483.85097333333334,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 41300333,
+    "ns_per_message": 137.66777666666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 60590750,
+    "ns_per_message": 201.96916666666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 2457042,
+    "ns_per_message": 24.57042,
+    "counts": [
+      33050,
+      33590,
+      33360
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 16457958,
+    "ns_per_message": 54.85986,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 31454834,
+    "ns_per_message": 104.84944666666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 41377125,
+    "ns_per_message": 137.92375,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 31820000,
+    "ns_per_message": 106.06666666666666,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3550334,
+    "ns_per_message": 35.50334,
+    "counts": [
+      33251,
+      33346,
+      33403
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 41155166,
+    "ns_per_message": 137.18388666666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 135557500,
+    "ns_per_message": 451.85833333333335,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 236034833,
+    "ns_per_message": 786.7827766666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 10449875,
+    "ns_per_message": 34.83291666666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 60684625,
+    "ns_per_message": 202.28208333333333,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 96082375,
+    "ns_per_message": 320.27458333333334,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 41842209,
+    "ns_per_message": 139.47403,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 10358792,
+    "ns_per_message": 34.52930666666666,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 16555167,
+    "ns_per_message": 55.18389,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3524084,
+    "ns_per_message": 35.24084,
+    "counts": [
+      33269,
+      33416,
+      33315
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3643375,
+    "ns_per_message": 36.43375,
+    "counts": [
+      32925,
+      33606,
+      33469
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 31657625,
+    "ns_per_message": 105.52541666666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 40873084,
+    "ns_per_message": 136.24361333333334,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3663208,
+    "ns_per_message": 36.63208,
+    "counts": [
+      33481,
+      33445,
+      33074
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 96985709,
+    "ns_per_message": 323.2856966666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 40980625,
+    "ns_per_message": 136.60208333333333,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 60489500,
+    "ns_per_message": 201.63166666666666,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 10587291,
+    "ns_per_message": 35.29097,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 40329458,
+    "ns_per_message": 134.43152666666666,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 146748000,
+    "ns_per_message": 489.16,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 40835208,
+    "ns_per_message": 136.11736,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 4,
+    "n": 100000,
+    "ns": 39094666,
+    "ns_per_message": 130.31555333333333,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "64",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 227660167,
+    "ns_per_message": 758.8672233333333,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3549416,
+    "ns_per_message": 35.49416,
+    "counts": [
+      33201,
+      33480,
+      33319
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 60261583,
+    "ns_per_message": 200.87194333333332,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 151995542,
+    "ns_per_message": 506.6518066666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 64,
+    "workers": 1,
+    "n": 100000,
+    "ns": 16545708,
+    "ns_per_message": 55.15236,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "64",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "ready",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3632584,
+    "ns_per_message": 36.32584,
+    "counts": [
+      33418,
+      33567,
+      33015
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "ready",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 91897459,
+    "ns_per_message": 306.3248633333333,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 4,
+    "n": 100000,
+    "ns": 134978667,
+    "ns_per_message": 449.92889,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "0",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 0,
+    "workers": 1,
+    "n": 100000,
+    "ns": 60179375,
+    "ns_per_message": 200.59791666666666,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 147087458,
+    "ns_per_message": 490.29152666666664,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 22686084,
+    "ns_per_message": 75.62028,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3577583,
+    "ns_per_message": 35.77583,
+    "counts": [
+      33131,
+      33301,
+      33568
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3668292,
+    "ns_per_message": 36.68292,
+    "counts": [
+      33363,
+      33368,
+      33269
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 94210541,
+    "ns_per_message": 314.0351366666667,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe",
+    "mode": "mixed",
+    "capacity": 1,
+    "workers": 1,
+    "n": 100000,
+    "ns": 3567667,
+    "ns_per_message": 35.67667,
+    "counts": [
+      32982,
+      33395,
+      33623
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-bench",
+      "mixed",
+      "100000",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reusable",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 92227708,
+    "ns_per_message": 307.42569333333336,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reusable-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "engine": "asio-v4-unsafe-reuse",
+    "mode": "fanin",
+    "capacity": 1,
+    "workers": 4,
+    "n": 100000,
+    "ns": 143474292,
+    "ns_per_message": 478.24764,
+    "counts": [
+      100000,
+      100000,
+      100000
+    ],
+    "command": [
+      "/Users/fernando/dev/kth/asio-csp-evidence/paired-r3-20261024-2058Z/macos-build/asio-v4-unsafe-reuse-bench",
+      "fanin",
+      "100000",
+      "1",
+      "4"
+    ]
+  }
+]
