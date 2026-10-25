@@ -1,0 +1,922 @@
+1/805 asio-baseline ready c=1 w=1: 22864.9 ns/msg
+2/805 asio-v3 fanin c=1 w=4: 463.2 ns/msg
+3/805 asio-v3 fanin c=1 w=4: 636.6 ns/msg
+4/805 asio-v2-reuse fanin c=1 w=1: 360.9 ns/msg
+5/805 asio-reusable fanin c=1 w=4: 174.3 ns/msg
+6/805 go fanin c=64 w=1: 44.5 ns/msg
+7/805 asio fanin c=0 w=1: 213.7 ns/msg
+8/805 asio-v2 ready c=1 w=1: 61.6 ns/msg
+9/805 tokio ready c=1 w=1: 22.2 ns/msg
+10/805 asio-v1 mixed c=1 w=1: 77.4 ns/msg
+11/805 asio-v2 fanin c=64 w=4: 393.0 ns/msg
+12/805 asio-v3-reuse fanin c=1 w=1: 181.9 ns/msg
+13/805 crossbeam fanin c=64 w=4: 52.3 ns/msg
+14/805 tokio ready c=1 w=1: 21.4 ns/msg
+15/805 go fanin c=1 w=1: 82.4 ns/msg
+16/805 asio mixed c=1 w=1: 35.0 ns/msg
+17/805 asio-reuse fanin c=0 w=1: 222.9 ns/msg
+18/805 asio-v1 fanin c=0 w=4: 1852.7 ns/msg
+19/805 go fanin c=64 w=1: 43.9 ns/msg
+20/805 asio-v1-reuse fanin c=64 w=4: 401.0 ns/msg
+21/805 asio-reusable fanin c=0 w=4: 493.7 ns/msg
+22/805 asio-v3-reuse fanin c=0 w=4: 944.3 ns/msg
+23/805 asio-v2 fanin c=1 w=4: 1180.7 ns/msg
+24/805 asio-v3-awaitable ready c=1 w=1: 62.9 ns/msg
+25/805 asio-baseline fanin c=64 w=4: 4914.1 ns/msg
+26/805 asio-v3-awaitable fanin c=0 w=4: 1043.1 ns/msg
+27/805 asio-v3-awaitable ready c=1 w=1: 63.0 ns/msg
+28/805 asio-v3-awaitable ready c=1 w=1: 61.7 ns/msg
+29/805 asio-v3 ready c=1 w=1: 42.6 ns/msg
+30/805 go fanin c=0 w=1: 102.9 ns/msg
+31/805 asio-v2-reuse fanin c=64 w=1: 100.6 ns/msg
+32/805 asio-reusable fanin c=0 w=4: 526.3 ns/msg
+33/805 asio-baseline fanin c=1 w=1: 22464.7 ns/msg
+34/805 asio-reuse fanin c=1 w=4: 527.0 ns/msg
+35/805 tokio fanin c=64 w=4: 66.6 ns/msg
+36/805 asio-v3 fanin c=64 w=4: 158.6 ns/msg
+37/805 go fanin c=0 w=4: 192.1 ns/msg
+38/805 asio-awaitable fanin c=1 w=4: 589.0 ns/msg
+39/805 asio-v1 fanin c=1 w=4: 1191.3 ns/msg
+40/805 asio-reuse fanin c=64 w=1: 54.8 ns/msg
+41/805 asio-v1 fanin c=0 w=1: 550.9 ns/msg
+42/805 asio-baseline fanin c=1 w=1: 22445.5 ns/msg
+43/805 asio-v3-awaitable fanin c=64 w=1: 102.3 ns/msg
+44/805 asio-v2-reuse fanin c=0 w=1: 506.6 ns/msg
+45/805 asio-v3-reuse fanin c=0 w=4: 962.2 ns/msg
+46/805 asio-awaitable ready c=1 w=1: 55.6 ns/msg
+47/805 asio-v3-awaitable fanin c=0 w=1: 299.3 ns/msg
+48/805 asio-baseline fanin c=0 w=4: 5683.1 ns/msg
+49/805 crossbeam mixed c=1 w=1: 21.4 ns/msg
+50/805 asio-v1-reuse mixed c=1 w=1: 78.4 ns/msg
+51/805 asio-v3-reuse mixed c=1 w=1: 42.1 ns/msg
+52/805 asio-awaitable fanin c=64 w=4: 185.9 ns/msg
+53/805 asio-v3-reuse fanin c=64 w=1: 66.0 ns/msg
+54/805 asio-v3-reuse fanin c=0 w=4: 934.3 ns/msg
+55/805 asio fanin c=1 w=1: 139.7 ns/msg
+56/805 asio-v3-reuse fanin c=0 w=4: 956.2 ns/msg
+57/805 crossbeam mixed c=1 w=1: 21.6 ns/msg
+58/805 asio-v2 ready c=1 w=1: 57.0 ns/msg
+59/805 crossbeam mixed c=1 w=1: 21.3 ns/msg
+60/805 asio-v3-awaitable fanin c=0 w=1: 325.4 ns/msg
+61/805 asio-v2 fanin c=1 w=4: 1183.7 ns/msg
+62/805 tokio fanin c=1 w=4: 254.8 ns/msg
+63/805 asio-v2-reuse fanin c=64 w=4: 348.3 ns/msg
+64/805 asio-baseline fanin c=64 w=1: 22522.0 ns/msg
+65/805 asio-v3-reuse mixed c=1 w=1: 41.4 ns/msg
+66/805 asio-reuse ready c=1 w=1: 34.9 ns/msg
+67/805 crossbeam ready c=1 w=1: 20.9 ns/msg
+68/805 go fanin c=64 w=4: 115.8 ns/msg
+69/805 asio-v1 fanin c=0 w=1: 530.6 ns/msg
+70/805 asio-v1-reuse mixed c=1 w=1: 76.9 ns/msg
+71/805 asio-reusable mixed c=1 w=1: 25.6 ns/msg
+72/805 asio-awaitable fanin c=1 w=1: 183.9 ns/msg
+73/805 asio fanin c=0 w=4: 878.0 ns/msg
+74/805 asio-v2-reuse fanin c=64 w=4: 360.5 ns/msg
+75/805 asio-v2 fanin c=1 w=4: 1160.3 ns/msg
+76/805 asio-v1-reuse fanin c=0 w=4: 2294.2 ns/msg
+77/805 crossbeam fanin c=0 w=4: 1394.3 ns/msg
+78/805 asio-reusable fanin c=64 w=4: 103.0 ns/msg
+79/805 go fanin c=64 w=4: 114.8 ns/msg
+80/805 asio-v3 fanin c=1 w=4: 637.9 ns/msg
+81/805 go fanin c=1 w=4: 154.2 ns/msg
+82/805 asio-v2-reuse fanin c=1 w=1: 337.2 ns/msg
+83/805 asio-baseline ready c=1 w=1: 22382.2 ns/msg
+84/805 asio-v3-awaitable mixed c=1 w=1: 62.3 ns/msg
+85/805 asio-awaitable ready c=1 w=1: 54.1 ns/msg
+86/805 asio-v1 ready c=1 w=1: 73.6 ns/msg
+87/805 asio-v1 mixed c=1 w=1: 75.6 ns/msg
+88/805 asio-v1 fanin c=0 w=4: 2346.3 ns/msg
+89/805 asio-v3-awaitable ready c=1 w=1: 62.6 ns/msg
+90/805 asio fanin c=64 w=1: 54.6 ns/msg
+91/805 asio-v3-reuse fanin c=1 w=1: 175.1 ns/msg
+92/805 asio-v1-reuse ready c=1 w=1: 76.8 ns/msg
+93/805 asio-v2 ready c=1 w=1: 57.8 ns/msg
+94/805 asio-v2-reuse fanin c=0 w=4: 2317.9 ns/msg
+95/805 asio-v3 fanin c=64 w=4: 155.8 ns/msg
+96/805 asio-reuse fanin c=1 w=4: 526.4 ns/msg
+97/805 asio-v1-reuse fanin c=1 w=4: 1161.8 ns/msg
+98/805 asio-reusable ready c=1 w=1: 25.1 ns/msg
+99/805 asio-baseline fanin c=0 w=1: 22548.6 ns/msg
+100/805 asio-awaitable fanin c=1 w=4: 591.3 ns/msg
+101/805 asio-v2 fanin c=0 w=1: 525.0 ns/msg
+102/805 go fanin c=64 w=4: 116.3 ns/msg
+103/805 asio-v1 fanin c=64 w=1: 118.4 ns/msg
+104/805 asio-reusable fanin c=1 w=1: 80.7 ns/msg
+105/805 go fanin c=0 w=4: 191.8 ns/msg
+106/805 asio-v3 fanin c=64 w=1: 65.2 ns/msg
+107/805 asio-v3-reuse fanin c=1 w=4: 624.8 ns/msg
+108/805 asio-baseline fanin c=64 w=1: 22475.3 ns/msg
+109/805 crossbeam ready c=1 w=1: 20.7 ns/msg
+110/805 asio-v3-awaitable fanin c=1 w=1: 217.9 ns/msg
+111/805 asio-v2 fanin c=1 w=1: 338.6 ns/msg
+112/805 asio-v3 mixed c=1 w=1: 42.6 ns/msg
+113/805 asio-v2-reuse fanin c=64 w=1: 101.4 ns/msg
+114/805 asio-v2 fanin c=1 w=1: 342.0 ns/msg
+115/805 asio-reusable fanin c=64 w=1: 35.1 ns/msg
+116/805 asio-reuse fanin c=64 w=4: 136.2 ns/msg
+117/805 asio-reusable fanin c=0 w=4: 527.6 ns/msg
+118/805 asio fanin c=0 w=4: 889.9 ns/msg
+119/805 asio-v2 mixed c=1 w=1: 57.2 ns/msg
+120/805 asio-v1 fanin c=0 w=1: 536.1 ns/msg
+121/805 tokio mixed c=1 w=1: 23.1 ns/msg
+122/805 asio-v3-reuse fanin c=1 w=1: 175.2 ns/msg
+123/805 asio-v3-awaitable fanin c=1 w=1: 218.1 ns/msg
+124/805 asio-v3 fanin c=0 w=1: 257.6 ns/msg
+125/805 asio-baseline fanin c=64 w=4: 4903.8 ns/msg
+126/805 crossbeam mixed c=1 w=1: 21.7 ns/msg
+127/805 asio-v2 fanin c=64 w=4: 388.4 ns/msg
+128/805 go ready c=1 w=1: 39.8 ns/msg
+129/805 go fanin c=0 w=4: 179.6 ns/msg
+130/805 asio-v2-reuse mixed c=1 w=1: 60.2 ns/msg
+131/805 asio-v1 fanin c=64 w=4: 460.9 ns/msg
+132/805 asio-v2-reuse fanin c=1 w=4: 1122.4 ns/msg
+133/805 tokio ready c=1 w=1: 21.9 ns/msg
+134/805 asio-v3-reuse fanin c=1 w=4: 611.3 ns/msg
+135/805 asio fanin c=64 w=1: 54.5 ns/msg
+136/805 asio-v3-awaitable fanin c=64 w=4: 184.5 ns/msg
+137/805 asio-reuse fanin c=0 w=1: 220.7 ns/msg
+138/805 asio-reusable mixed c=1 w=1: 24.9 ns/msg
+139/805 asio-v3-awaitable fanin c=0 w=4: 1026.7 ns/msg
+140/805 asio-v1 fanin c=1 w=4: 1117.5 ns/msg
+141/805 asio-awaitable ready c=1 w=1: 58.3 ns/msg
+142/805 asio-reusable mixed c=1 w=1: 24.9 ns/msg
+143/805 asio-v3 fanin c=0 w=1: 259.5 ns/msg
+144/805 asio-reusable fanin c=1 w=1: 81.1 ns/msg
+145/805 asio-v3-awaitable fanin c=0 w=1: 303.8 ns/msg
+146/805 crossbeam fanin c=1 w=4: 104.9 ns/msg
+147/805 asio-v1 fanin c=64 w=1: 118.7 ns/msg
+148/805 tokio fanin c=64 w=1: 29.7 ns/msg
+149/805 asio-v3-reuse fanin c=0 w=4: 936.3 ns/msg
+150/805 asio fanin c=1 w=4: 552.9 ns/msg
+151/805 asio-v2-reuse ready c=1 w=1: 58.9 ns/msg
+152/805 asio-v3-reuse fanin c=64 w=4: 142.8 ns/msg
+153/805 asio-v3 fanin c=64 w=4: 150.9 ns/msg
+154/805 crossbeam fanin c=1 w=4: 156.0 ns/msg
+155/805 asio-v2-reuse mixed c=1 w=1: 58.6 ns/msg
+156/805 asio fanin c=0 w=4: 823.2 ns/msg
+157/805 asio-reuse fanin c=64 w=1: 56.2 ns/msg
+158/805 asio-baseline fanin c=64 w=4: 4783.6 ns/msg
+159/805 asio-v1 fanin c=0 w=1: 540.5 ns/msg
+160/805 crossbeam mixed c=1 w=1: 21.7 ns/msg
+161/805 asio-v2 fanin c=1 w=4: 1169.2 ns/msg
+162/805 asio-v1-reuse fanin c=1 w=1: 359.8 ns/msg
+163/805 asio-v1-reuse fanin c=64 w=1: 119.9 ns/msg
+164/805 asio-v3-reuse fanin c=0 w=1: 262.7 ns/msg
+165/805 asio-awaitable fanin c=0 w=1: 252.3 ns/msg
+166/805 asio-v1 fanin c=1 w=1: 362.5 ns/msg
+167/805 asio-v1 fanin c=1 w=4: 1172.1 ns/msg
+168/805 asio-v3-reuse mixed c=1 w=1: 43.1 ns/msg
+169/805 asio-v3 ready c=1 w=1: 42.8 ns/msg
+170/805 asio mixed c=1 w=1: 36.4 ns/msg
+171/805 asio-v3-reuse fanin c=64 w=4: 141.5 ns/msg
+172/805 asio-reusable fanin c=0 w=4: 513.9 ns/msg
+173/805 asio-v2 ready c=1 w=1: 58.0 ns/msg
+174/805 asio-v2 fanin c=64 w=4: 382.3 ns/msg
+175/805 go ready c=1 w=1: 39.4 ns/msg
+176/805 tokio fanin c=64 w=4: 63.0 ns/msg
+177/805 asio-v3 fanin c=1 w=1: 175.9 ns/msg
+178/805 asio-v3-awaitable fanin c=1 w=1: 218.1 ns/msg
+179/805 go ready c=1 w=1: 39.4 ns/msg
+180/805 asio-reusable fanin c=1 w=1: 80.0 ns/msg
+181/805 asio-v1-reuse ready c=1 w=1: 75.5 ns/msg
+182/805 asio-baseline fanin c=0 w=4: 5364.2 ns/msg
+183/805 asio-baseline fanin c=64 w=1: 22473.8 ns/msg
+184/805 go mixed c=1 w=1: 40.1 ns/msg
+185/805 asio-v3-awaitable fanin c=1 w=1: 218.1 ns/msg
+186/805 asio-v2-reuse fanin c=64 w=4: 366.1 ns/msg
+187/805 asio-reuse ready c=1 w=1: 36.0 ns/msg
+188/805 tokio ready c=1 w=1: 21.8 ns/msg
+189/805 asio-v2 fanin c=64 w=1: 102.7 ns/msg
+190/805 asio-v3-reuse fanin c=1 w=1: 177.3 ns/msg
+191/805 asio-v3 fanin c=0 w=4: 974.4 ns/msg
+192/805 asio-v3-awaitable fanin c=64 w=4: 182.4 ns/msg
+193/805 tokio ready c=1 w=1: 22.1 ns/msg
+194/805 asio-v3-awaitable fanin c=1 w=1: 218.8 ns/msg
+195/805 asio-v2-reuse fanin c=1 w=1: 341.4 ns/msg
+196/805 asio-v3-awaitable fanin c=64 w=4: 183.1 ns/msg
+197/805 asio-v3-reuse fanin c=64 w=4: 138.2 ns/msg
+198/805 tokio mixed c=1 w=1: 23.3 ns/msg
+199/805 asio-v2-reuse ready c=1 w=1: 58.9 ns/msg
+200/805 asio-reuse fanin c=1 w=1: 141.4 ns/msg
+201/805 asio-v1 fanin c=64 w=4: 457.2 ns/msg
+202/805 asio-v3-awaitable fanin c=0 w=1: 302.8 ns/msg
+203/805 asio-reusable fanin c=64 w=1: 34.8 ns/msg
+204/805 asio-v1-reuse mixed c=1 w=1: 78.5 ns/msg
+205/805 asio-v3 ready c=1 w=1: 43.1 ns/msg
+206/805 asio ready c=1 w=1: 35.8 ns/msg
+207/805 asio fanin c=64 w=4: 148.2 ns/msg
+208/805 asio ready c=1 w=1: 35.1 ns/msg
+209/805 asio-reusable fanin c=64 w=1: 34.6 ns/msg
+210/805 tokio mixed c=1 w=1: 22.6 ns/msg
+211/805 asio-reusable fanin c=0 w=4: 506.0 ns/msg
+212/805 asio-reuse ready c=1 w=1: 35.5 ns/msg
+213/805 asio-v2-reuse fanin c=1 w=1: 340.6 ns/msg
+214/805 asio-reusable fanin c=64 w=4: 104.0 ns/msg
+215/805 asio-v3-awaitable fanin c=64 w=1: 105.4 ns/msg
+216/805 go fanin c=64 w=4: 115.5 ns/msg
+217/805 asio-v3 fanin c=64 w=4: 151.9 ns/msg
+218/805 asio-reusable fanin c=1 w=1: 80.5 ns/msg
+219/805 asio ready c=1 w=1: 35.9 ns/msg
+220/805 asio-awaitable fanin c=1 w=4: 566.7 ns/msg
+221/805 asio mixed c=1 w=1: 36.0 ns/msg
+222/805 asio-v3-awaitable mixed c=1 w=1: 64.3 ns/msg
+223/805 asio-reusable fanin c=1 w=4: 339.4 ns/msg
+224/805 tokio fanin c=64 w=1: 29.6 ns/msg
+225/805 asio-reuse fanin c=0 w=4: 800.2 ns/msg
+226/805 go mixed c=1 w=1: 40.6 ns/msg
+227/805 asio-baseline fanin c=1 w=4: 4821.4 ns/msg
+228/805 asio-awaitable fanin c=64 w=4: 172.1 ns/msg
+229/805 asio-v3-awaitable fanin c=0 w=4: 987.6 ns/msg
+230/805 go fanin c=1 w=1: 83.5 ns/msg
+231/805 asio-v1 fanin c=64 w=4: 451.6 ns/msg
+232/805 asio-reuse mixed c=1 w=1: 35.6 ns/msg
+233/805 asio-v1 fanin c=0 w=4: 2266.8 ns/msg
+234/805 asio-v1 mixed c=1 w=1: 76.0 ns/msg
+235/805 asio-v3 fanin c=1 w=1: 175.6 ns/msg
+236/805 asio-reusable mixed c=1 w=1: 24.6 ns/msg
+237/805 crossbeam fanin c=64 w=4: 54.4 ns/msg
+238/805 tokio fanin c=1 w=1: 70.9 ns/msg
+239/805 asio-v3-awaitable fanin c=64 w=4: 183.8 ns/msg
+240/805 asio fanin c=1 w=4: 533.9 ns/msg
+241/805 asio ready c=1 w=1: 35.4 ns/msg
+242/805 asio fanin c=1 w=4: 535.3 ns/msg
+243/805 asio-baseline fanin c=1 w=4: 4804.3 ns/msg
+244/805 asio-v1 ready c=1 w=1: 77.1 ns/msg
+245/805 asio-v2 fanin c=0 w=1: 524.3 ns/msg
+246/805 asio-reuse mixed c=1 w=1: 35.9 ns/msg
+247/805 asio-v3-awaitable fanin c=1 w=4: 644.0 ns/msg
+248/805 asio-reuse fanin c=0 w=4: 794.9 ns/msg
+249/805 asio-v1-reuse ready c=1 w=1: 76.6 ns/msg
+250/805 asio-reusable fanin c=64 w=4: 97.7 ns/msg
+251/805 asio-v3-awaitable fanin c=0 w=1: 314.6 ns/msg
+252/805 asio-v1-reuse fanin c=0 w=4: 2215.4 ns/msg
+253/805 asio-v3-reuse fanin c=64 w=1: 67.7 ns/msg
+254/805 asio-v3-reuse ready c=1 w=1: 44.4 ns/msg
+255/805 asio-v2-reuse fanin c=0 w=4: 2180.0 ns/msg
+256/805 asio-v3-reuse mixed c=1 w=1: 43.8 ns/msg
+257/805 asio fanin c=1 w=1: 142.1 ns/msg
+258/805 asio-v3 fanin c=64 w=4: 153.4 ns/msg
+259/805 asio-v1-reuse fanin c=1 w=4: 1120.6 ns/msg
+260/805 asio-v2 ready c=1 w=1: 59.0 ns/msg
+261/805 asio-v3-reuse fanin c=0 w=1: 260.6 ns/msg
+262/805 asio-v1 ready c=1 w=1: 76.3 ns/msg
+263/805 asio-reuse fanin c=64 w=1: 56.1 ns/msg
+264/805 asio-v3-reuse ready c=1 w=1: 43.2 ns/msg
+265/805 asio-v1-reuse fanin c=0 w=1: 533.9 ns/msg
+266/805 asio-reuse fanin c=64 w=4: 130.7 ns/msg
+267/805 asio-v3-awaitable fanin c=64 w=1: 105.6 ns/msg
+268/805 asio fanin c=0 w=1: 208.9 ns/msg
+269/805 asio-baseline fanin c=0 w=4: 5508.2 ns/msg
+270/805 asio-awaitable fanin c=64 w=4: 171.2 ns/msg
+271/805 asio-reuse fanin c=64 w=1: 55.6 ns/msg
+272/805 asio-v3 fanin c=1 w=1: 177.1 ns/msg
+273/805 tokio fanin c=64 w=4: 64.0 ns/msg
+274/805 asio-v2-reuse fanin c=1 w=4: 1105.5 ns/msg
+275/805 asio-v2 fanin c=1 w=1: 349.9 ns/msg
+276/805 tokio fanin c=64 w=1: 30.1 ns/msg
+277/805 crossbeam ready c=1 w=1: 21.9 ns/msg
+278/805 asio-v1 fanin c=64 w=1: 118.7 ns/msg
+279/805 asio-v2-reuse fanin c=64 w=4: 351.3 ns/msg
+280/805 asio-v3 mixed c=1 w=1: 42.7 ns/msg
+281/805 asio-baseline fanin c=0 w=1: 22620.3 ns/msg
+282/805 go fanin c=0 w=1: 103.5 ns/msg
+283/805 asio-awaitable fanin c=64 w=1: 92.6 ns/msg
+284/805 go fanin c=64 w=1: 43.7 ns/msg
+285/805 asio-reusable fanin c=64 w=4: 101.4 ns/msg
+286/805 asio fanin c=0 w=1: 210.0 ns/msg
+287/805 asio-v3 fanin c=0 w=4: 953.8 ns/msg
+288/805 go fanin c=1 w=4: 149.0 ns/msg
+289/805 asio-reusable fanin c=64 w=4: 97.6 ns/msg
+290/805 asio-v1 ready c=1 w=1: 76.1 ns/msg
+291/805 asio-v3-reuse fanin c=1 w=1: 177.4 ns/msg
+292/805 asio-v2-reuse fanin c=1 w=1: 343.7 ns/msg
+293/805 asio-baseline fanin c=1 w=4: 4821.3 ns/msg
+294/805 asio-v3 fanin c=0 w=4: 945.7 ns/msg
+295/805 asio-v3-reuse fanin c=64 w=4: 137.8 ns/msg
+296/805 asio-baseline mixed c=1 w=1: 22906.5 ns/msg
+297/805 go fanin c=64 w=4: 111.9 ns/msg
+298/805 tokio fanin c=1 w=4: 255.1 ns/msg
+299/805 asio-v2-reuse mixed c=1 w=1: 58.9 ns/msg
+300/805 asio-reusable ready c=1 w=1: 24.8 ns/msg
+301/805 asio-v3-awaitable fanin c=1 w=4: 636.3 ns/msg
+302/805 asio-reuse fanin c=64 w=4: 124.9 ns/msg
+303/805 asio-baseline ready c=1 w=1: 22822.7 ns/msg
+304/805 asio-v1-reuse ready c=1 w=1: 75.0 ns/msg
+305/805 asio-v2-reuse fanin c=64 w=1: 101.5 ns/msg
+306/805 asio fanin c=64 w=4: 136.1 ns/msg
+307/805 asio-v3-reuse fanin c=64 w=1: 69.7 ns/msg
+308/805 go fanin c=1 w=1: 84.5 ns/msg
+309/805 asio-v3-awaitable fanin c=0 w=4: 986.1 ns/msg
+310/805 asio-v3 fanin c=1 w=4: 610.6 ns/msg
+311/805 go fanin c=64 w=1: 43.9 ns/msg
+312/805 asio-awaitable fanin c=1 w=1: 185.8 ns/msg
+313/805 asio-v1-reuse mixed c=1 w=1: 78.1 ns/msg
+314/805 asio fanin c=1 w=4: 532.0 ns/msg
+315/805 asio fanin c=1 w=1: 143.0 ns/msg
+316/805 asio-v2-reuse fanin c=1 w=4: 1088.6 ns/msg
+317/805 asio-v1 fanin c=0 w=4: 2276.2 ns/msg
+318/805 asio fanin c=64 w=1: 54.9 ns/msg
+319/805 asio fanin c=64 w=1: 55.1 ns/msg
+320/805 asio-v2-reuse mixed c=1 w=1: 61.3 ns/msg
+321/805 asio-v1 fanin c=64 w=1: 120.4 ns/msg
+322/805 asio-awaitable mixed c=1 w=1: 56.5 ns/msg
+323/805 asio-v2 fanin c=64 w=1: 103.1 ns/msg
+324/805 asio-v3-reuse mixed c=1 w=1: 43.3 ns/msg
+325/805 asio-baseline fanin c=64 w=4: 4728.5 ns/msg
+326/805 asio-v3-reuse fanin c=1 w=4: 588.8 ns/msg
+327/805 asio-v1-reuse fanin c=64 w=1: 121.0 ns/msg
+328/805 asio-reuse ready c=1 w=1: 36.7 ns/msg
+329/805 asio-v3-reuse ready c=1 w=1: 43.2 ns/msg
+330/805 asio-v2 fanin c=1 w=1: 344.0 ns/msg
+331/805 asio-awaitable fanin c=0 w=1: 254.3 ns/msg
+332/805 asio-v1 ready c=1 w=1: 76.6 ns/msg
+333/805 asio-v3-reuse ready c=1 w=1: 43.3 ns/msg
+334/805 tokio fanin c=1 w=4: 254.5 ns/msg
+335/805 asio-v1 fanin c=64 w=4: 446.5 ns/msg
+336/805 asio-awaitable fanin c=0 w=1: 252.6 ns/msg
+337/805 asio-v2 mixed c=1 w=1: 58.2 ns/msg
+338/805 asio-baseline fanin c=1 w=4: 4685.2 ns/msg
+339/805 asio-v1 fanin c=0 w=1: 552.9 ns/msg
+340/805 asio-reusable fanin c=64 w=1: 36.1 ns/msg
+341/805 asio-v2-reuse fanin c=0 w=1: 529.0 ns/msg
+342/805 asio-v3-reuse fanin c=64 w=1: 68.8 ns/msg
+343/805 asio-v1 fanin c=64 w=4: 309.7 ns/msg
+344/805 asio-v3-reuse mixed c=1 w=1: 44.4 ns/msg
+345/805 asio-v2-reuse fanin c=0 w=4: 1247.4 ns/msg
+346/805 crossbeam fanin c=0 w=4: 1237.3 ns/msg
+347/805 asio-baseline fanin c=0 w=4: 5545.8 ns/msg
+348/805 asio-v2 fanin c=0 w=4: 2299.3 ns/msg
+349/805 asio-v1-reuse fanin c=64 w=4: 386.7 ns/msg
+350/805 asio-v3-reuse fanin c=0 w=1: 261.0 ns/msg
+351/805 asio-v2 fanin c=64 w=4: 386.3 ns/msg
+352/805 asio-v3 fanin c=0 w=4: 943.8 ns/msg
+353/805 asio-v3 fanin c=1 w=4: 608.3 ns/msg
+354/805 asio-baseline mixed c=1 w=1: 22122.5 ns/msg
+355/805 asio-v1-reuse fanin c=1 w=1: 368.4 ns/msg
+356/805 asio-v3-reuse fanin c=0 w=1: 258.8 ns/msg
+357/805 asio-baseline fanin c=64 w=4: 4701.5 ns/msg
+358/805 asio-v2 fanin c=64 w=1: 102.3 ns/msg
+359/805 crossbeam fanin c=0 w=4: 1325.6 ns/msg
+360/805 go fanin c=0 w=1: 104.8 ns/msg
+361/805 asio-baseline fanin c=0 w=4: 5474.9 ns/msg
+362/805 asio fanin c=64 w=4: 133.2 ns/msg
+363/805 asio-reuse ready c=1 w=1: 36.8 ns/msg
+364/805 asio-awaitable fanin c=64 w=1: 94.1 ns/msg
+365/805 asio-v3-reuse ready c=1 w=1: 43.8 ns/msg
+366/805 asio-v3-awaitable fanin c=64 w=1: 105.5 ns/msg
+367/805 asio-v3-reuse fanin c=64 w=4: 142.7 ns/msg
+368/805 asio-v1-reuse fanin c=64 w=4: 381.7 ns/msg
+369/805 asio-reusable fanin c=1 w=4: 339.8 ns/msg
+370/805 asio-v3-reuse fanin c=64 w=4: 140.4 ns/msg
+371/805 asio-reusable mixed c=1 w=1: 24.6 ns/msg
+372/805 crossbeam fanin c=1 w=4: 133.2 ns/msg
+373/805 asio-awaitable mixed c=1 w=1: 56.1 ns/msg
+374/805 asio-v3 mixed c=1 w=1: 43.2 ns/msg
+375/805 asio-v1 fanin c=64 w=1: 119.6 ns/msg
+376/805 asio-baseline fanin c=0 w=1: 22705.9 ns/msg
+377/805 asio-v2 fanin c=0 w=1: 524.2 ns/msg
+378/805 asio-v2-reuse fanin c=0 w=1: 520.9 ns/msg
+379/805 asio-v2 ready c=1 w=1: 59.2 ns/msg
+380/805 asio-v1 fanin c=1 w=4: 1168.7 ns/msg
+381/805 asio-v3 ready c=1 w=1: 42.6 ns/msg
+382/805 asio-v3-awaitable ready c=1 w=1: 63.8 ns/msg
+383/805 asio-v3-reuse fanin c=64 w=1: 67.4 ns/msg
+384/805 asio-v1 fanin c=1 w=4: 1167.0 ns/msg
+385/805 asio-v1 fanin c=1 w=1: 363.5 ns/msg
+386/805 crossbeam fanin c=64 w=4: 54.4 ns/msg
+387/805 asio fanin c=64 w=1: 55.2 ns/msg
+388/805 asio-v1 fanin c=1 w=4: 1152.1 ns/msg
+389/805 asio-awaitable fanin c=64 w=4: 172.1 ns/msg
+390/805 asio-awaitable fanin c=64 w=1: 93.7 ns/msg
+391/805 asio-v3-awaitable fanin c=0 w=1: 305.3 ns/msg
+392/805 asio fanin c=0 w=1: 209.8 ns/msg
+393/805 asio-v3 fanin c=1 w=1: 178.0 ns/msg
+394/805 asio-v1 fanin c=0 w=4: 2006.1 ns/msg
+395/805 asio-awaitable mixed c=1 w=1: 56.8 ns/msg
+396/805 asio fanin c=64 w=4: 144.4 ns/msg
+397/805 asio-reusable fanin c=0 w=1: 114.7 ns/msg
+398/805 asio-baseline fanin c=1 w=4: 4817.0 ns/msg
+399/805 asio-v1-reuse fanin c=1 w=1: 369.3 ns/msg
+400/805 crossbeam ready c=1 w=1: 21.4 ns/msg
+401/805 asio-reusable fanin c=64 w=1: 35.7 ns/msg
+402/805 asio-v3-reuse fanin c=1 w=4: 498.1 ns/msg
+403/805 asio-baseline fanin c=64 w=1: 22418.0 ns/msg
+404/805 asio-v1-reuse fanin c=1 w=1: 373.7 ns/msg
+405/805 asio-v3-reuse ready c=1 w=1: 43.2 ns/msg
+406/805 asio-reuse fanin c=1 w=1: 142.7 ns/msg
+407/805 tokio ready c=1 w=1: 22.2 ns/msg
+408/805 tokio fanin c=1 w=4: 253.7 ns/msg
+409/805 asio fanin c=64 w=4: 142.3 ns/msg
+410/805 crossbeam fanin c=64 w=4: 54.3 ns/msg
+411/805 asio-reuse fanin c=0 w=1: 208.3 ns/msg
+412/805 go mixed c=1 w=1: 40.7 ns/msg
+413/805 asio-v3 fanin c=64 w=4: 153.8 ns/msg
+414/805 asio-awaitable fanin c=1 w=1: 187.2 ns/msg
+415/805 asio-awaitable fanin c=1 w=4: 566.0 ns/msg
+416/805 asio-v1 fanin c=1 w=1: 367.2 ns/msg
+417/805 asio-baseline mixed c=1 w=1: 22186.7 ns/msg
+418/805 tokio mixed c=1 w=1: 22.6 ns/msg
+419/805 asio-v3-reuse ready c=1 w=1: 44.2 ns/msg
+420/805 crossbeam fanin c=0 w=4: 1378.9 ns/msg
+421/805 asio-reusable ready c=1 w=1: 24.8 ns/msg
+422/805 asio-v2 fanin c=1 w=4: 1143.8 ns/msg
+423/805 asio-v1 fanin c=1 w=1: 362.4 ns/msg
+424/805 asio-v1 fanin c=64 w=4: 452.5 ns/msg
+425/805 go fanin c=64 w=1: 43.0 ns/msg
+426/805 asio-v1-reuse fanin c=1 w=4: 1122.7 ns/msg
+427/805 asio-reusable fanin c=0 w=1: 114.0 ns/msg
+428/805 asio-reuse fanin c=0 w=1: 210.5 ns/msg
+429/805 asio-baseline fanin c=64 w=1: 22355.0 ns/msg
+430/805 asio-reuse mixed c=1 w=1: 34.4 ns/msg
+431/805 asio-v3-awaitable fanin c=1 w=1: 218.3 ns/msg
+432/805 tokio fanin c=1 w=4: 253.3 ns/msg
+433/805 crossbeam mixed c=1 w=1: 22.0 ns/msg
+434/805 go mixed c=1 w=1: 40.6 ns/msg
+435/805 tokio fanin c=1 w=1: 71.2 ns/msg
+436/805 asio-v3 fanin c=1 w=4: 615.0 ns/msg
+437/805 go fanin c=1 w=1: 84.0 ns/msg
+438/805 crossbeam fanin c=0 w=4: 1394.4 ns/msg
+439/805 asio-baseline ready c=1 w=1: 22018.4 ns/msg
+440/805 asio-v1-reuse fanin c=64 w=1: 118.5 ns/msg
+441/805 asio-v3-reuse fanin c=0 w=4: 910.0 ns/msg
+442/805 asio-awaitable mixed c=1 w=1: 57.0 ns/msg
+443/805 asio-v3-reuse fanin c=1 w=4: 595.9 ns/msg
+444/805 asio-v2 fanin c=1 w=1: 340.4 ns/msg
+445/805 go fanin c=1 w=4: 149.5 ns/msg
+446/805 asio-reuse fanin c=0 w=1: 208.3 ns/msg
+447/805 asio-reusable fanin c=64 w=4: 101.7 ns/msg
+448/805 asio-v3-reuse fanin c=64 w=1: 67.5 ns/msg
+449/805 tokio fanin c=64 w=1: 29.8 ns/msg
+450/805 asio-awaitable fanin c=1 w=1: 186.6 ns/msg
+451/805 crossbeam fanin c=64 w=4: 52.9 ns/msg
+452/805 asio-v2-reuse fanin c=0 w=1: 524.6 ns/msg
+453/805 crossbeam ready c=1 w=1: 21.4 ns/msg
+454/805 asio-v1 mixed c=1 w=1: 76.3 ns/msg
+455/805 asio fanin c=1 w=4: 535.4 ns/msg
+456/805 asio-v2 fanin c=0 w=4: 2149.1 ns/msg
+457/805 asio-awaitable fanin c=0 w=1: 253.5 ns/msg
+458/805 asio-v2-reuse fanin c=64 w=1: 102.6 ns/msg
+459/805 asio-v2 fanin c=0 w=4: 2241.7 ns/msg
+460/805 asio-v3 mixed c=1 w=1: 43.6 ns/msg
+461/805 asio-v2-reuse fanin c=64 w=1: 103.3 ns/msg
+462/805 asio fanin c=0 w=4: 839.1 ns/msg
+463/805 asio-v3 fanin c=1 w=1: 177.1 ns/msg
+464/805 asio-reuse fanin c=1 w=4: 509.9 ns/msg
+465/805 asio fanin c=1 w=1: 141.9 ns/msg
+466/805 asio-reuse fanin c=1 w=1: 142.5 ns/msg
+467/805 asio-v3 fanin c=64 w=1: 66.6 ns/msg
+468/805 asio-v1 mixed c=1 w=1: 77.1 ns/msg
+469/805 asio-v2-reuse mixed c=1 w=1: 60.4 ns/msg
+470/805 asio-v3-awaitable mixed c=1 w=1: 64.4 ns/msg
+471/805 asio-baseline fanin c=1 w=1: 22449.6 ns/msg
+472/805 asio-v1-reuse fanin c=0 w=1: 537.0 ns/msg
+473/805 asio-baseline fanin c=1 w=1: 22613.5 ns/msg
+474/805 asio-baseline mixed c=1 w=1: 22187.7 ns/msg
+475/805 asio-v1-reuse mixed c=1 w=1: 76.6 ns/msg
+476/805 crossbeam fanin c=1 w=4: 186.9 ns/msg
+477/805 tokio fanin c=64 w=4: 64.6 ns/msg
+478/805 asio-v1-reuse fanin c=0 w=4: 2205.1 ns/msg
+479/805 crossbeam fanin c=0 w=4: 1404.5 ns/msg
+480/805 asio-reusable fanin c=1 w=4: 335.6 ns/msg
+481/805 go fanin c=64 w=1: 43.8 ns/msg
+482/805 asio-reuse mixed c=1 w=1: 35.5 ns/msg
+483/805 asio fanin c=1 w=1: 141.8 ns/msg
+484/805 go fanin c=0 w=4: 179.2 ns/msg
+485/805 asio-v3 fanin c=0 w=1: 259.1 ns/msg
+486/805 asio-v3-awaitable fanin c=64 w=4: 183.8 ns/msg
+487/805 asio-awaitable fanin c=0 w=1: 253.1 ns/msg
+488/805 asio-v2 fanin c=1 w=4: 1131.0 ns/msg
+489/805 tokio fanin c=64 w=1: 29.8 ns/msg
+490/805 asio-baseline fanin c=1 w=1: 22414.4 ns/msg
+491/805 go fanin c=64 w=1: 44.8 ns/msg
+492/805 asio-awaitable fanin c=64 w=4: 175.0 ns/msg
+493/805 asio-v3-awaitable mixed c=1 w=1: 64.1 ns/msg
+494/805 asio-awaitable ready c=1 w=1: 55.1 ns/msg
+495/805 asio-v2 fanin c=0 w=4: 2219.5 ns/msg
+496/805 tokio fanin c=1 w=1: 71.1 ns/msg
+497/805 asio fanin c=0 w=1: 209.5 ns/msg
+498/805 asio-awaitable ready c=1 w=1: 56.4 ns/msg
+499/805 asio-v3-awaitable fanin c=64 w=4: 183.5 ns/msg
+500/805 go fanin c=1 w=4: 150.9 ns/msg
+501/805 asio-awaitable fanin c=64 w=4: 171.2 ns/msg
+502/805 asio-v3 ready c=1 w=1: 43.1 ns/msg
+503/805 asio-reusable fanin c=1 w=1: 80.8 ns/msg
+504/805 asio-v2 fanin c=1 w=4: 935.7 ns/msg
+505/805 asio-reuse fanin c=0 w=4: 414.1 ns/msg
+506/805 tokio fanin c=1 w=1: 82.3 ns/msg
+507/805 asio-awaitable fanin c=0 w=4: 490.8 ns/msg
+508/805 asio-v1 fanin c=1 w=1: 401.7 ns/msg
+509/805 asio-awaitable mixed c=1 w=1: 56.2 ns/msg
+510/805 asio-v1 fanin c=64 w=4: 461.3 ns/msg
+511/805 asio ready c=1 w=1: 35.7 ns/msg
+512/805 asio-reuse fanin c=64 w=4: 126.6 ns/msg
+513/805 asio-v2 fanin c=0 w=1: 509.7 ns/msg
+514/805 go ready c=1 w=1: 40.6 ns/msg
+515/805 go mixed c=1 w=1: 40.2 ns/msg
+516/805 asio-v2 fanin c=64 w=4: 390.9 ns/msg
+517/805 asio-reusable fanin c=0 w=1: 114.8 ns/msg
+518/805 asio-v2 fanin c=1 w=1: 342.5 ns/msg
+519/805 asio-v2 mixed c=1 w=1: 58.1 ns/msg
+520/805 asio-v3-reuse fanin c=1 w=1: 178.4 ns/msg
+521/805 asio-baseline fanin c=0 w=1: 22460.4 ns/msg
+522/805 asio fanin c=1 w=4: 535.8 ns/msg
+523/805 asio-reusable fanin c=64 w=1: 34.6 ns/msg
+524/805 asio-v2-reuse fanin c=64 w=4: 348.3 ns/msg
+525/805 asio-v2-reuse fanin c=0 w=4: 2100.4 ns/msg
+526/805 asio-reusable fanin c=1 w=4: 324.4 ns/msg
+527/805 asio-reuse fanin c=1 w=1: 142.2 ns/msg
+528/805 asio-reuse fanin c=64 w=4: 131.9 ns/msg
+529/805 asio-reuse fanin c=1 w=4: 502.9 ns/msg
+530/805 asio-v2-reuse ready c=1 w=1: 58.2 ns/msg
+531/805 go mixed c=1 w=1: 41.7 ns/msg
+532/805 asio-reusable fanin c=0 w=1: 114.0 ns/msg
+533/805 asio-v1 fanin c=0 w=4: 1988.2 ns/msg
+534/805 asio-v2-reuse fanin c=1 w=1: 348.2 ns/msg
+535/805 asio fanin c=64 w=1: 55.6 ns/msg
+536/805 asio-v3 fanin c=0 w=1: 261.8 ns/msg
+537/805 asio-v1 ready c=1 w=1: 75.9 ns/msg
+538/805 asio-reuse fanin c=1 w=1: 143.0 ns/msg
+539/805 asio fanin c=1 w=4: 489.7 ns/msg
+540/805 asio-v3 fanin c=0 w=4: 807.3 ns/msg
+541/805 asio-v2 fanin c=0 w=1: 525.3 ns/msg
+542/805 asio-v2 fanin c=0 w=4: 2235.1 ns/msg
+543/805 asio-v1-reuse mixed c=1 w=1: 78.1 ns/msg
+544/805 asio-v2 mixed c=1 w=1: 57.1 ns/msg
+545/805 asio-v1 fanin c=1 w=1: 363.4 ns/msg
+546/805 asio-v2 mixed c=1 w=1: 58.5 ns/msg
+547/805 asio-baseline fanin c=64 w=4: 4720.0 ns/msg
+548/805 asio-v3 ready c=1 w=1: 42.5 ns/msg
+549/805 asio-v2 fanin c=64 w=4: 389.4 ns/msg
+550/805 asio-v3-awaitable fanin c=64 w=4: 186.1 ns/msg
+551/805 asio-reuse fanin c=64 w=1: 55.6 ns/msg
+552/805 asio-reusable mixed c=1 w=1: 24.3 ns/msg
+553/805 asio-v2-reuse fanin c=0 w=4: 2174.8 ns/msg
+554/805 asio-v2 fanin c=0 w=4: 2213.1 ns/msg
+555/805 asio-v2-reuse fanin c=64 w=1: 102.1 ns/msg
+556/805 asio mixed c=1 w=1: 36.4 ns/msg
+557/805 tokio mixed c=1 w=1: 22.9 ns/msg
+558/805 asio-baseline mixed c=1 w=1: 22073.2 ns/msg
+559/805 asio-v3 fanin c=0 w=4: 953.9 ns/msg
+560/805 tokio fanin c=1 w=1: 71.5 ns/msg
+561/805 asio-v1-reuse ready c=1 w=1: 77.0 ns/msg
+562/805 asio-v2-reuse fanin c=1 w=4: 1093.4 ns/msg
+563/805 asio-v2-reuse fanin c=64 w=4: 345.7 ns/msg
+564/805 asio-reusable fanin c=0 w=4: 504.2 ns/msg
+565/805 go fanin c=0 w=1: 103.6 ns/msg
+566/805 asio-v1-reuse fanin c=0 w=4: 2214.7 ns/msg
+567/805 tokio mixed c=1 w=1: 22.9 ns/msg
+568/805 asio-reusable fanin c=1 w=1: 81.4 ns/msg
+569/805 asio-reuse mixed c=1 w=1: 36.2 ns/msg
+570/805 asio-v1-reuse fanin c=1 w=1: 366.0 ns/msg
+571/805 crossbeam fanin c=0 w=4: 1387.6 ns/msg
+572/805 asio-v3 ready c=1 w=1: 43.0 ns/msg
+573/805 tokio fanin c=1 w=4: 254.6 ns/msg
+574/805 asio-awaitable fanin c=1 w=4: 564.1 ns/msg
+575/805 asio-v3-awaitable ready c=1 w=1: 65.2 ns/msg
+576/805 asio-awaitable fanin c=1 w=1: 187.6 ns/msg
+577/805 asio-awaitable fanin c=1 w=4: 570.8 ns/msg
+578/805 asio-reuse fanin c=1 w=4: 500.9 ns/msg
+579/805 asio-v2-reuse fanin c=1 w=4: 1087.3 ns/msg
+580/805 asio-v1-reuse fanin c=0 w=1: 547.7 ns/msg
+581/805 asio-reusable ready c=1 w=1: 24.9 ns/msg
+582/805 tokio mixed c=1 w=1: 23.3 ns/msg
+583/805 asio-reuse fanin c=0 w=4: 805.2 ns/msg
+584/805 asio-v3-reuse fanin c=0 w=4: 904.2 ns/msg
+585/805 asio mixed c=1 w=1: 35.9 ns/msg
+586/805 asio-v1-reuse fanin c=1 w=1: 366.5 ns/msg
+587/805 asio-v2 fanin c=64 w=1: 102.8 ns/msg
+588/805 crossbeam ready c=1 w=1: 21.7 ns/msg
+589/805 asio-reusable fanin c=1 w=4: 337.1 ns/msg
+590/805 asio-awaitable fanin c=64 w=1: 93.7 ns/msg
+591/805 go fanin c=1 w=4: 149.1 ns/msg
+592/805 asio-v1-reuse fanin c=64 w=4: 385.9 ns/msg
+593/805 asio-v3-reuse fanin c=1 w=1: 179.8 ns/msg
+594/805 asio-v2-reuse ready c=1 w=1: 58.5 ns/msg
+595/805 asio-baseline fanin c=64 w=4: 4727.2 ns/msg
+596/805 asio-v1-reuse fanin c=0 w=4: 2235.3 ns/msg
+597/805 asio-awaitable fanin c=0 w=1: 253.8 ns/msg
+598/805 asio-v3-awaitable fanin c=1 w=4: 641.0 ns/msg
+599/805 asio-baseline fanin c=64 w=1: 22376.3 ns/msg
+600/805 asio mixed c=1 w=1: 38.2 ns/msg
+601/805 asio-awaitable fanin c=0 w=4: 897.3 ns/msg
+602/805 asio-reusable fanin c=64 w=1: 35.7 ns/msg
+603/805 asio-v1-reuse fanin c=0 w=1: 538.8 ns/msg
+604/805 go fanin c=64 w=4: 112.0 ns/msg
+605/805 asio-baseline fanin c=0 w=1: 22475.0 ns/msg
+606/805 asio fanin c=64 w=4: 148.6 ns/msg
+607/805 asio-v1-reuse fanin c=0 w=1: 537.2 ns/msg
+608/805 asio-v3-awaitable ready c=1 w=1: 64.5 ns/msg
+609/805 asio-v2 mixed c=1 w=1: 57.9 ns/msg
+610/805 tokio fanin c=1 w=1: 71.5 ns/msg
+611/805 asio-v3-awaitable fanin c=64 w=1: 105.3 ns/msg
+612/805 asio-v3 fanin c=64 w=4: 152.7 ns/msg
+613/805 asio-v2-reuse mixed c=1 w=1: 59.6 ns/msg
+614/805 asio-v3-reuse fanin c=64 w=1: 67.3 ns/msg
+615/805 asio-v2-reuse fanin c=0 w=4: 2067.9 ns/msg
+616/805 go ready c=1 w=1: 42.1 ns/msg
+617/805 asio-baseline ready c=1 w=1: 22199.7 ns/msg
+618/805 crossbeam fanin c=1 w=4: 125.2 ns/msg
+619/805 go fanin c=1 w=4: 148.0 ns/msg
+620/805 asio-v3 fanin c=1 w=1: 176.1 ns/msg
+621/805 asio-baseline fanin c=1 w=4: 4778.4 ns/msg
+622/805 asio-v3 fanin c=64 w=1: 66.2 ns/msg
+623/805 asio-v1-reuse fanin c=1 w=4: 1108.9 ns/msg
+624/805 asio-reusable ready c=1 w=1: 25.1 ns/msg
+625/805 asio-v2-reuse fanin c=1 w=1: 346.8 ns/msg
+626/805 asio-v1-reuse fanin c=64 w=1: 119.9 ns/msg
+627/805 asio fanin c=64 w=4: 143.5 ns/msg
+628/805 asio-reuse fanin c=1 w=4: 507.2 ns/msg
+629/805 go fanin c=64 w=4: 107.8 ns/msg
+630/805 asio-v3-awaitable mixed c=1 w=1: 66.6 ns/msg
+631/805 asio-awaitable fanin c=0 w=4: 869.9 ns/msg
+632/805 asio-awaitable fanin c=64 w=1: 93.8 ns/msg
+633/805 asio-v1-reuse fanin c=1 w=4: 1117.6 ns/msg
+634/805 asio-v3 fanin c=0 w=1: 260.9 ns/msg
+635/805 asio-reusable fanin c=0 w=1: 114.6 ns/msg
+636/805 asio-v1-reuse fanin c=0 w=1: 543.8 ns/msg
+637/805 asio-baseline fanin c=1 w=4: 4791.3 ns/msg
+638/805 asio-v1-reuse fanin c=1 w=4: 1128.6 ns/msg
+639/805 asio-v3-reuse fanin c=1 w=4: 590.2 ns/msg
+640/805 crossbeam fanin c=1 w=4: 104.4 ns/msg
+641/805 asio-reusable fanin c=0 w=1: 113.3 ns/msg
+642/805 crossbeam fanin c=64 w=4: 54.0 ns/msg
+643/805 asio-reuse fanin c=1 w=1: 142.7 ns/msg
+644/805 asio-v1-reuse ready c=1 w=1: 78.0 ns/msg
+645/805 asio-reuse fanin c=0 w=4: 797.1 ns/msg
+646/805 asio-v3 mixed c=1 w=1: 43.8 ns/msg
+647/805 asio-reuse fanin c=64 w=4: 129.1 ns/msg
+648/805 asio-v2-reuse ready c=1 w=1: 58.5 ns/msg
+649/805 asio-awaitable fanin c=64 w=1: 93.3 ns/msg
+650/805 go fanin c=0 w=4: 177.9 ns/msg
+651/805 asio-v2-reuse fanin c=64 w=1: 102.9 ns/msg
+652/805 asio-awaitable fanin c=1 w=1: 187.0 ns/msg
+653/805 asio-awaitable ready c=1 w=1: 56.3 ns/msg
+654/805 asio-v1-reuse fanin c=64 w=4: 389.9 ns/msg
+655/805 go ready c=1 w=1: 41.4 ns/msg
+656/805 asio-awaitable fanin c=64 w=1: 93.8 ns/msg
+657/805 crossbeam fanin c=64 w=4: 52.0 ns/msg
+658/805 asio-awaitable mixed c=1 w=1: 55.4 ns/msg
+659/805 asio-v3 fanin c=1 w=1: 175.9 ns/msg
+660/805 asio-v1-reuse fanin c=64 w=4: 387.4 ns/msg
+661/805 asio-v1 fanin c=0 w=4: 2255.1 ns/msg
+662/805 asio-v3 mixed c=1 w=1: 43.3 ns/msg
+663/805 asio-v2-reuse fanin c=64 w=4: 342.0 ns/msg
+664/805 asio fanin c=1 w=1: 142.7 ns/msg
+665/805 asio-v3-reuse fanin c=1 w=4: 594.4 ns/msg
+666/805 asio-v3-awaitable fanin c=64 w=1: 107.2 ns/msg
+667/805 asio-v3-awaitable fanin c=1 w=4: 636.7 ns/msg
+668/805 asio-v3-awaitable fanin c=1 w=4: 642.9 ns/msg
+669/805 asio-v3-awaitable fanin c=0 w=4: 1001.2 ns/msg
+670/805 asio mixed c=1 w=1: 36.2 ns/msg
+671/805 asio-v2-reuse fanin c=0 w=1: 516.7 ns/msg
+672/805 asio-reusable fanin c=64 w=4: 101.8 ns/msg
+673/805 asio-v2-reuse fanin c=0 w=1: 508.8 ns/msg
+674/805 asio-v2-reuse fanin c=1 w=4: 1112.4 ns/msg
+675/805 asio-reuse mixed c=1 w=1: 36.1 ns/msg
+676/805 asio-v1-reuse fanin c=1 w=4: 1113.4 ns/msg
+677/805 asio-v3-reuse fanin c=0 w=1: 262.1 ns/msg
+678/805 tokio fanin c=64 w=4: 63.7 ns/msg
+679/805 asio-v3 fanin c=1 w=4: 612.7 ns/msg
+680/805 asio-reusable fanin c=0 w=4: 496.9 ns/msg
+681/805 asio-baseline fanin c=0 w=1: 22571.3 ns/msg
+682/805 asio-v2 fanin c=64 w=1: 101.4 ns/msg
+683/805 asio-reuse fanin c=0 w=1: 207.6 ns/msg
+684/805 asio-v2 fanin c=64 w=1: 101.8 ns/msg
+685/805 asio-v2 mixed c=1 w=1: 58.7 ns/msg
+686/805 asio-awaitable fanin c=1 w=1: 186.4 ns/msg
+687/805 asio fanin c=1 w=1: 141.5 ns/msg
+688/805 asio-v3 fanin c=0 w=1: 257.7 ns/msg
+689/805 asio-v1-reuse fanin c=64 w=4: 386.7 ns/msg
+690/805 go fanin c=0 w=1: 104.8 ns/msg
+691/805 asio-v3-awaitable fanin c=64 w=1: 105.5 ns/msg
+692/805 asio-v3-reuse fanin c=0 w=1: 261.7 ns/msg
+693/805 asio-v2 fanin c=64 w=1: 102.6 ns/msg
+694/805 tokio fanin c=64 w=1: 29.9 ns/msg
+695/805 asio-baseline fanin c=0 w=4: 5336.3 ns/msg
+696/805 asio-v2-reuse ready c=1 w=1: 59.0 ns/msg
+697/805 asio-baseline mixed c=1 w=1: 22179.4 ns/msg
+698/805 asio-v3-reuse fanin c=64 w=4: 141.9 ns/msg
+699/805 asio-baseline fanin c=1 w=1: 22762.6 ns/msg
+700/805 asio fanin c=64 w=1: 53.9 ns/msg
+701/805 asio-baseline fanin c=1 w=1: 22567.5 ns/msg
+702/805 tokio fanin c=64 w=1: 29.2 ns/msg
+703/805 asio-v3 fanin c=64 w=1: 65.1 ns/msg
+704/805 crossbeam mixed c=1 w=1: 22.2 ns/msg
+705/805 asio-v1 fanin c=1 w=1: 368.7 ns/msg
+706/805 asio-v1-reuse mixed c=1 w=1: 78.3 ns/msg
+707/805 asio-v3 fanin c=64 w=1: 64.1 ns/msg
+708/805 asio-v3 fanin c=0 w=4: 931.8 ns/msg
+709/805 asio-v1 mixed c=1 w=1: 76.5 ns/msg
+710/805 asio-baseline mixed c=1 w=1: 22474.2 ns/msg
+711/805 asio-reuse ready c=1 w=1: 35.9 ns/msg
+712/805 tokio fanin c=1 w=4: 251.1 ns/msg
+713/805 asio-v1 mixed c=1 w=1: 76.6 ns/msg
+714/805 asio-v2-reuse ready c=1 w=1: 58.2 ns/msg
+715/805 asio-baseline ready c=1 w=1: 22250.2 ns/msg
+716/805 asio fanin c=0 w=1: 207.2 ns/msg
+717/805 asio-v2 fanin c=1 w=1: 345.9 ns/msg
+718/805 asio-awaitable fanin c=0 w=1: 252.0 ns/msg
+719/805 asio-awaitable fanin c=64 w=4: 174.9 ns/msg
+720/805 asio-v1 fanin c=0 w=1: 553.1 ns/msg
+721/805 go fanin c=0 w=1: 104.5 ns/msg
+722/805 asio-v3 fanin c=64 w=1: 66.2 ns/msg
+723/805 asio-baseline ready c=1 w=1: 22286.0 ns/msg
+724/805 asio-v3 fanin c=64 w=1: 66.7 ns/msg
+725/805 asio-awaitable fanin c=1 w=4: 574.1 ns/msg
+726/805 asio-v2-reuse fanin c=0 w=1: 513.1 ns/msg
+727/805 asio-awaitable fanin c=0 w=4: 902.0 ns/msg
+728/805 asio-v3-awaitable fanin c=0 w=1: 306.7 ns/msg
+729/805 asio-reuse fanin c=1 w=1: 142.4 ns/msg
+730/805 asio-v1-reuse fanin c=0 w=4: 2195.6 ns/msg
+731/805 asio ready c=1 w=1: 36.2 ns/msg
+732/805 asio-v3-awaitable fanin c=0 w=4: 998.6 ns/msg
+733/805 asio-v2 fanin c=0 w=1: 524.7 ns/msg
+734/805 asio-v3-reuse fanin c=0 w=1: 261.6 ns/msg
+735/805 go fanin c=0 w=1: 103.9 ns/msg
+736/805 asio-awaitable fanin c=0 w=4: 890.2 ns/msg
+737/805 asio fanin c=0 w=4: 835.8 ns/msg
+738/805 asio-v3-awaitable fanin c=1 w=4: 631.0 ns/msg
+739/805 asio-awaitable fanin c=0 w=4: 889.9 ns/msg
+740/805 asio-v1-reuse fanin c=1 w=1: 364.7 ns/msg
+741/805 asio-v3 fanin c=0 w=1: 260.2 ns/msg
+742/805 asio-reusable fanin c=1 w=1: 81.3 ns/msg
+743/805 go fanin c=0 w=4: 182.8 ns/msg
+744/805 tokio ready c=1 w=1: 23.7 ns/msg
+745/805 crossbeam ready c=1 w=1: 21.5 ns/msg
+746/805 tokio fanin c=1 w=1: 71.5 ns/msg
+747/805 asio-reusable mixed c=1 w=1: 24.7 ns/msg
+748/805 go fanin c=1 w=4: 149.2 ns/msg
+749/805 asio-v3-reuse mixed c=1 w=1: 43.1 ns/msg
+750/805 asio-reuse ready c=1 w=1: 36.0 ns/msg
+751/805 go fanin c=1 w=1: 84.3 ns/msg
+752/805 asio-v2-reuse fanin c=0 w=4: 2212.6 ns/msg
+753/805 asio ready c=1 w=1: 35.4 ns/msg
+754/805 tokio fanin c=64 w=4: 62.9 ns/msg
+755/805 asio-v1-reuse fanin c=64 w=1: 120.2 ns/msg
+756/805 asio-reuse mixed c=1 w=1: 36.8 ns/msg
+757/805 asio-reuse fanin c=0 w=1: 209.3 ns/msg
+758/805 asio-v3 mixed c=1 w=1: 43.7 ns/msg
+759/805 asio fanin c=0 w=1: 210.0 ns/msg
+760/805 asio-v2 fanin c=0 w=1: 512.4 ns/msg
+761/805 asio-v1-reuse fanin c=64 w=1: 120.4 ns/msg
+762/805 go mixed c=1 w=1: 41.4 ns/msg
+763/805 asio-awaitable mixed c=1 w=1: 55.4 ns/msg
+764/805 asio-reusable fanin c=0 w=1: 113.2 ns/msg
+765/805 asio-v3-awaitable fanin c=1 w=1: 220.2 ns/msg
+766/805 go fanin c=1 w=1: 85.8 ns/msg
+767/805 asio-v1-reuse fanin c=0 w=1: 547.2 ns/msg
+768/805 asio-reuse fanin c=0 w=4: 803.5 ns/msg
+769/805 asio-v1-reuse ready c=1 w=1: 76.3 ns/msg
+770/805 asio-reuse fanin c=1 w=4: 504.9 ns/msg
+771/805 go ready c=1 w=1: 41.2 ns/msg
+772/805 crossbeam fanin c=1 w=4: 140.5 ns/msg
+773/805 asio-v2 fanin c=64 w=4: 384.6 ns/msg
+774/805 asio-v1 fanin c=1 w=4: 1156.6 ns/msg
+775/805 asio-reusable ready c=1 w=1: 24.4 ns/msg
+776/805 asio-v2-reuse fanin c=1 w=4: 1097.8 ns/msg
+777/805 go fanin c=0 w=4: 178.4 ns/msg
+778/805 asio-awaitable ready c=1 w=1: 56.0 ns/msg
+779/805 asio-baseline fanin c=0 w=4: 5542.6 ns/msg
+780/805 asio-v1 fanin c=0 w=1: 549.4 ns/msg
+781/805 asio-reuse fanin c=0 w=4: 800.8 ns/msg
+782/805 asio-v1-reuse fanin c=0 w=4: 2115.9 ns/msg
+783/805 asio-v1-reuse fanin c=64 w=1: 121.6 ns/msg
+784/805 asio-v3-awaitable mixed c=1 w=1: 63.9 ns/msg
+785/805 asio-reusable fanin c=1 w=4: 346.9 ns/msg
+786/805 asio-v2-reuse mixed c=1 w=1: 61.5 ns/msg
+787/805 asio-reusable ready c=1 w=1: 24.5 ns/msg
+788/805 go fanin c=1 w=1: 84.3 ns/msg
+789/805 asio-awaitable fanin c=0 w=4: 916.7 ns/msg
+790/805 tokio fanin c=64 w=4: 61.6 ns/msg
+791/805 asio-reuse fanin c=64 w=1: 56.4 ns/msg
+792/805 asio-v2 fanin c=0 w=4: 2245.9 ns/msg
+793/805 asio-v3-awaitable fanin c=0 w=4: 992.2 ns/msg
+794/805 asio-baseline fanin c=0 w=1: 22509.0 ns/msg
+795/805 asio fanin c=0 w=4: 836.4 ns/msg
+796/805 asio-reuse fanin c=64 w=4: 127.0 ns/msg
+797/805 asio-v2 ready c=1 w=1: 57.9 ns/msg
+798/805 asio-reuse fanin c=64 w=1: 56.4 ns/msg
+799/805 asio-v1 fanin c=64 w=1: 119.1 ns/msg
+800/805 asio-v3-awaitable mixed c=1 w=1: 64.0 ns/msg
+801/805 asio-v3-awaitable fanin c=1 w=4: 647.0 ns/msg
+802/805 asio-v1 ready c=1 w=1: 78.8 ns/msg
+803/805 asio-baseline fanin c=64 w=1: 22460.5 ns/msg
+804/805 asio fanin c=0 w=4: 838.9 ns/msg
+805/805 asio-v1 fanin c=64 w=1: 118.9 ns/msg
+| Engine | Scenario | Capacity | Workers | Median ns/message | Min–max |
+|---|---|---:|---:|---:|---:|
+| asio-baseline | ready | 1 | 1 | 22286.0 | 22018.4–22864.9 |
+| asio-baseline | mixed | 1 | 1 | 22186.7 | 22073.2–22906.5 |
+| asio-baseline | fanin | 0 | 1 | 22548.6 | 22460.4–22705.9 |
+| asio-baseline | fanin | 0 | 4 | 5508.2 | 5336.3–5683.1 |
+| asio-baseline | fanin | 1 | 1 | 22464.7 | 22414.4–22762.6 |
+| asio-baseline | fanin | 1 | 4 | 4804.3 | 4685.2–4821.4 |
+| asio-baseline | fanin | 64 | 1 | 22460.5 | 22355.0–22522.0 |
+| asio-baseline | fanin | 64 | 4 | 4728.5 | 4701.5–4914.1 |
+| asio-v1 | ready | 1 | 1 | 76.3 | 73.6–78.8 |
+| asio-v1 | mixed | 1 | 1 | 76.5 | 75.6–77.4 |
+| asio-v1 | fanin | 0 | 1 | 549.4 | 530.6–553.1 |
+| asio-v1 | fanin | 0 | 4 | 2255.1 | 1852.7–2346.3 |
+| asio-v1 | fanin | 1 | 1 | 363.5 | 362.4–401.7 |
+| asio-v1 | fanin | 1 | 4 | 1167.0 | 1117.5–1191.3 |
+| asio-v1 | fanin | 64 | 1 | 118.9 | 118.4–120.4 |
+| asio-v1 | fanin | 64 | 4 | 452.5 | 309.7–461.3 |
+| asio-v1-reuse | ready | 1 | 1 | 76.6 | 75.0–78.0 |
+| asio-v1-reuse | mixed | 1 | 1 | 78.1 | 76.6–78.5 |
+| asio-v1-reuse | fanin | 0 | 1 | 538.8 | 533.9–547.7 |
+| asio-v1-reuse | fanin | 0 | 4 | 2214.7 | 2115.9–2294.2 |
+| asio-v1-reuse | fanin | 1 | 1 | 366.5 | 359.8–373.7 |
+| asio-v1-reuse | fanin | 1 | 4 | 1120.6 | 1108.9–1161.8 |
+| asio-v1-reuse | fanin | 64 | 1 | 120.2 | 118.5–121.6 |
+| asio-v1-reuse | fanin | 64 | 4 | 386.7 | 381.7–401.0 |
+| asio-v2 | ready | 1 | 1 | 58.0 | 57.0–61.6 |
+| asio-v2 | mixed | 1 | 1 | 58.1 | 57.1–58.7 |
+| asio-v2 | fanin | 0 | 1 | 524.3 | 509.7–525.3 |
+| asio-v2 | fanin | 0 | 4 | 2235.1 | 2149.1–2299.3 |
+| asio-v2 | fanin | 1 | 1 | 342.5 | 338.6–349.9 |
+| asio-v2 | fanin | 1 | 4 | 1160.3 | 935.7–1183.7 |
+| asio-v2 | fanin | 64 | 1 | 102.6 | 101.4–103.1 |
+| asio-v2 | fanin | 64 | 4 | 388.4 | 382.3–393.0 |
+| asio-v2-reuse | ready | 1 | 1 | 58.5 | 58.2–59.0 |
+| asio-v2-reuse | mixed | 1 | 1 | 60.2 | 58.6–61.5 |
+| asio-v2-reuse | fanin | 0 | 1 | 516.7 | 506.6–529.0 |
+| asio-v2-reuse | fanin | 0 | 4 | 2174.8 | 1247.4–2317.9 |
+| asio-v2-reuse | fanin | 1 | 1 | 343.7 | 337.2–360.9 |
+| asio-v2-reuse | fanin | 1 | 4 | 1097.8 | 1087.3–1122.4 |
+| asio-v2-reuse | fanin | 64 | 1 | 102.1 | 100.6–103.3 |
+| asio-v2-reuse | fanin | 64 | 4 | 348.3 | 342.0–366.1 |
+| asio-v3 | ready | 1 | 1 | 42.8 | 42.5–43.1 |
+| asio-v3 | mixed | 1 | 1 | 43.3 | 42.6–43.8 |
+| asio-v3 | fanin | 0 | 1 | 259.5 | 257.6–261.8 |
+| asio-v3 | fanin | 0 | 4 | 945.7 | 807.3–974.4 |
+| asio-v3 | fanin | 1 | 1 | 176.1 | 175.6–178.0 |
+| asio-v3 | fanin | 1 | 4 | 612.7 | 463.2–637.9 |
+| asio-v3 | fanin | 64 | 1 | 66.2 | 64.1–66.7 |
+| asio-v3 | fanin | 64 | 4 | 153.4 | 150.9–158.6 |
+| asio-v3-reuse | ready | 1 | 1 | 43.3 | 43.2–44.4 |
+| asio-v3-reuse | mixed | 1 | 1 | 43.1 | 41.4–44.4 |
+| asio-v3-reuse | fanin | 0 | 1 | 261.6 | 258.8–262.7 |
+| asio-v3-reuse | fanin | 0 | 4 | 936.3 | 904.2–962.2 |
+| asio-v3-reuse | fanin | 1 | 1 | 177.4 | 175.1–181.9 |
+| asio-v3-reuse | fanin | 1 | 4 | 594.4 | 498.1–624.8 |
+| asio-v3-reuse | fanin | 64 | 1 | 67.5 | 66.0–69.7 |
+| asio-v3-reuse | fanin | 64 | 4 | 141.5 | 137.8–142.8 |
+| asio-v3-awaitable | ready | 1 | 1 | 63.0 | 61.7–65.2 |
+| asio-v3-awaitable | mixed | 1 | 1 | 64.1 | 62.3–66.6 |
+| asio-v3-awaitable | fanin | 0 | 1 | 305.3 | 299.3–325.4 |
+| asio-v3-awaitable | fanin | 0 | 4 | 998.6 | 986.1–1043.1 |
+| asio-v3-awaitable | fanin | 1 | 1 | 218.1 | 217.9–220.2 |
+| asio-v3-awaitable | fanin | 1 | 4 | 641.0 | 631.0–647.0 |
+| asio-v3-awaitable | fanin | 64 | 1 | 105.5 | 102.3–107.2 |
+| asio-v3-awaitable | fanin | 64 | 4 | 183.8 | 182.4–186.1 |
+| asio | ready | 1 | 1 | 35.7 | 35.1–36.2 |
+| asio | mixed | 1 | 1 | 36.2 | 35.0–38.2 |
+| asio | fanin | 0 | 1 | 209.8 | 207.2–213.7 |
+| asio | fanin | 0 | 4 | 838.9 | 823.2–889.9 |
+| asio | fanin | 1 | 1 | 141.9 | 139.7–143.0 |
+| asio | fanin | 1 | 4 | 535.3 | 489.7–552.9 |
+| asio | fanin | 64 | 1 | 54.9 | 53.9–55.6 |
+| asio | fanin | 64 | 4 | 143.5 | 133.2–148.6 |
+| asio-reuse | ready | 1 | 1 | 36.0 | 34.9–36.8 |
+| asio-reuse | mixed | 1 | 1 | 35.9 | 34.4–36.8 |
+| asio-reuse | fanin | 0 | 1 | 209.3 | 207.6–222.9 |
+| asio-reuse | fanin | 0 | 4 | 800.2 | 414.1–805.2 |
+| asio-reuse | fanin | 1 | 1 | 142.5 | 141.4–143.0 |
+| asio-reuse | fanin | 1 | 4 | 507.2 | 500.9–527.0 |
+| asio-reuse | fanin | 64 | 1 | 56.1 | 54.8–56.4 |
+| asio-reuse | fanin | 64 | 4 | 129.1 | 124.9–136.2 |
+| asio-reusable | ready | 1 | 1 | 24.8 | 24.4–25.1 |
+| asio-reusable | mixed | 1 | 1 | 24.7 | 24.3–25.6 |
+| asio-reusable | fanin | 0 | 1 | 114.0 | 113.2–114.8 |
+| asio-reusable | fanin | 0 | 4 | 506.0 | 493.7–527.6 |
+| asio-reusable | fanin | 1 | 1 | 80.8 | 80.0–81.4 |
+| asio-reusable | fanin | 1 | 4 | 337.1 | 174.3–346.9 |
+| asio-reusable | fanin | 64 | 1 | 35.1 | 34.6–36.1 |
+| asio-reusable | fanin | 64 | 4 | 101.7 | 97.6–104.0 |
+| asio-awaitable | ready | 1 | 1 | 56.0 | 54.1–58.3 |
+| asio-awaitable | mixed | 1 | 1 | 56.2 | 55.4–57.0 |
+| asio-awaitable | fanin | 0 | 1 | 253.1 | 252.0–254.3 |
+| asio-awaitable | fanin | 0 | 4 | 890.2 | 490.8–916.7 |
+| asio-awaitable | fanin | 1 | 1 | 186.6 | 183.9–187.6 |
+| asio-awaitable | fanin | 1 | 4 | 570.8 | 564.1–591.3 |
+| asio-awaitable | fanin | 64 | 1 | 93.7 | 92.6–94.1 |
+| asio-awaitable | fanin | 64 | 4 | 172.1 | 171.2–185.9 |
+| go | ready | 1 | 1 | 40.6 | 39.4–42.1 |
+| go | mixed | 1 | 1 | 40.6 | 40.1–41.7 |
+| go | fanin | 0 | 1 | 103.9 | 102.9–104.8 |
+| go | fanin | 0 | 4 | 179.6 | 177.9–192.1 |
+| go | fanin | 1 | 1 | 84.3 | 82.4–85.8 |
+| go | fanin | 1 | 4 | 149.2 | 148.0–154.2 |
+| go | fanin | 64 | 1 | 43.9 | 43.0–44.8 |
+| go | fanin | 64 | 4 | 114.8 | 107.8–116.3 |
+| crossbeam | ready | 1 | 1 | 21.4 | 20.7–21.9 |
+| crossbeam | mixed | 1 | 1 | 21.7 | 21.3–22.2 |
+| crossbeam | fanin | 0 | 4 | 1387.6 | 1237.3–1404.5 |
+| crossbeam | fanin | 1 | 4 | 133.2 | 104.4–186.9 |
+| crossbeam | fanin | 64 | 4 | 54.0 | 52.0–54.4 |
+| tokio | ready | 1 | 1 | 22.1 | 21.4–23.7 |
+| tokio | mixed | 1 | 1 | 22.9 | 22.6–23.3 |
+| tokio | fanin | 1 | 1 | 71.5 | 70.9–82.3 |
+| tokio | fanin | 1 | 4 | 254.5 | 251.1–255.1 |
+| tokio | fanin | 64 | 1 | 29.8 | 29.2–30.1 |
+| tokio | fanin | 64 | 4 | 63.7 | 61.6–66.6 |

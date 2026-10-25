@@ -1,0 +1,1 @@
+Original pipeline RED: stale binaries accepted after the manifest and flag changes (frozen scripts build.py 962899b3c43217d9, run.py f4306f788a00964c); the current pipeline's rejection is tests/provenance_control.py

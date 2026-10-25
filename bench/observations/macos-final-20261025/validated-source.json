@@ -1,0 +1,11 @@
+{
+  "validated_commit": "4b04892f2d02d5c9e04b79b428d8fe905a927a48",
+  "validated_tree": "3ce98d09c449c7cdd95e44991ba81c0a74c0db4d",
+  "compiled_inputs_verified": 650,
+  "all_compiled_input_hashes_identical_across_hosts": true,
+  "recorded_head": "4b04892f2d02d5c9e04b79b428d8fe905a927a48",
+  "recorded_tree": "3ce98d09c449c7cdd95e44991ba81c0a74c0db4d",
+  "metadata_preserved": true,
+  "source_delta_sha256": "8cefa76f8caf5720508c95a5e0ad10a62aa2dcccc8fe34f09920684cd6ff4a96",
+  "note": "Linux was measured from the seven-file working-tree patch on eb05df406. Its exact git diff is byte-identical to the delta incorporated in the validated commit. Mac was measured from the committed checkout. All 650 compiled input hashes match both the validated commit and the benchmark sources. Original metadata and samples are unmodified."
+}

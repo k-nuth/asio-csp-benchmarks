@@ -1,0 +1,39 @@
+=== 2026-10-25T14:31:49Z before-series
+loadavg: 1.16 0.71 0.37 1/633 2277584
+governor: powersave driver: amd-pstate-epp epp: performance auto-cpufreq: active
+cpu0-3 MHz: 5499.651 5509.892 624.194 5514.570 
+podman containers: 0
+top processes by CPU (excluding this snapshot):
+    PID %CPU %MEM PSR     ELAPSED COMMAND
+2258148  1.2  0.4  29       06:34 claude
+   1604  0.3  0.0   1    22:40:46 .auto-cpufreq-w
+   2186  0.2  0.0  29    22:40:45 python3.14
+2062796  0.0  0.0  28    01:56:10 kworker/u128:0-mt76
+1410612  0.0  0.0   9    08:12:15 kworker/u128:2-mt76
+   2028  0.0  0.0   0    22:40:46 syncthing
+     16  0.0  0.0  10    22:40:54 rcu_preempt
+   2690  0.0  0.4  13    22:40:44 sddm-greeter-qt
+2258628  0.0  0.0  14       06:19 kworker/u130:3-btrfs-endio-meta
+2258629  0.0  0.0  14       06:19 kworker/u130:5-events_unbound
+2219927  0.0  0.0  29       31:31 kworker/u130:4-btrfs-endio
+processes with recent CPU not belonging to the benchmark:
+2258148  1.2 claude
+=== 2026-10-25T14:36:00Z after-series
+loadavg: 1.79 1.33 0.72 1/634 2286626
+governor: powersave driver: amd-pstate-epp epp: performance auto-cpufreq: active
+cpu0-3 MHz: 5497.193 5529.334 5521.619 624.194 
+podman containers: 0
+top processes by CPU (excluding this snapshot):
+    PID %CPU %MEM PSR     ELAPSED COMMAND
+2258148  0.9  0.5   9       10:45 claude
+   1604  0.3  0.0  13    22:44:57 .auto-cpufreq-w
+   2186  0.2  0.0  13    22:44:56 python3.14
+1410612  0.0  0.0  29    08:16:26 kworker/u128:2-mt76
+2062796  0.0  0.0  28    02:00:21 kworker/u128:0-btrfs-discard
+   2028  0.0  0.0   0    22:44:56 syncthing
+     16  0.0  0.0  19    22:45:04 rcu_preempt
+   2690  0.0  0.4  28    22:44:54 sddm-greeter-qt
+2278436  0.0  0.0  18       03:57 kworker/u129:2-btrfs-endio-meta
+2258628  0.0  0.0  14       10:30 kworker/u130:3-btrfs-endio-meta
+2258629  0.0  0.0  27       10:30 kworker/u130:5-events_unbound
+processes with recent CPU not belonging to the benchmark:

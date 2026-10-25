@@ -36,3 +36,5 @@ build configuration.
 
 Raw crash reports and diagnostic logs stay in local evidence. A measurement
 series that fails is incomplete and must not be reported as a passing full run.
+
+The [final validated comparison](bench/README.md#final-validation-series-2026-10-25) records 805 samples on each host against Go, Tokio and Crossbeam, including the remaining performance gaps.

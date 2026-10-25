@@ -468,8 +468,8 @@ On Linux the selector is 41% to 44% faster than the frozen third iteration on
 the ready and mixed loops, 48% to 68% faster on the single-worker fan-in
 scenarios and 44% to 49% faster with four workers; the one-shot API gains 15%
 to 27% on single-worker scenarios and 6% to 18% with four workers. The
-selector is below Go on every single-worker scenario and on the rendezvous
-four-worker fan-in, and below every reference engine of the third-iteration
+selector is below Go on every single-worker scenario, but above Go on the
+rendezvous four-worker fan-in. Every reference engine of the third-iteration
 series moved by at most 2% on this host. Token and reuse variants:
 `asio-awaitable` 70.0 ns ready and 233.7 ns capacity-one fan-in, `asio-reuse`
 43.0 and 171.8 ns, against 79.0 and 281.5 ns and 51.0 and 244.7 ns for the
@@ -557,7 +557,8 @@ on the four-worker rendezvous fan-in (0.38 of Crossbeam) and is 1.09 to 1.19
 of the best reference on the single-worker scenarios and 1.85 to 2.27 on the
 buffered four-worker fan-ins. The one-shot API meets it only on the Mac's
 four-worker rendezvous fan-in (0.61 of Crossbeam). The selector is below Go on
-every single-worker scenario on both hosts. Against the frozen third iteration
+every single-worker scenario on Linux; on Mac the single-worker rendezvous
+remains above Go (112.6 versus 103.3 ns/message). Against the frozen third iteration
 measured in the same series it is 42% faster on the Mac's ready and mixed
 loops and 31% to 57% faster on the suspended scenarios, and on Linux 39% to
 42% and 41% to 67%.
@@ -594,3 +595,38 @@ a blocking multi-producer multi-consumer channel; Go's channels are runtime
 scheduled; none matches this extension's owning, cancellable, executor-affine
 selection exactly, so the comparison is of throughput for the same message
 pattern, not of equivalent semantics.
+
+## Final validation series (2026-10-25)
+
+The final library source is commit `4b04892f2d02d5c9e04b79b428d8fe905a927a48` (tree `3ce98d09c449c7cdd95e44991ba81c0a74c0db4d`), header SHA256 `0148fa61e76a5da4…`. The fresh [Mac series](observations/macos-final-20261025/) and [Linux series](observations/linux-final-20261025/) each completed **805/805 samples**: fifteen default engines, 115 configurations, seven repetitions. All **650 compiled input hashes match across hosts** and the final sources. The Linux metadata retains its original `eb05df406` HEAD plus the seven-file working-tree status; `validated-source.json` maps that byte-identical patch to the final commit without rewriting the recorded metadata.
+
+Mac: Apple Clang 21, Go 1.27.3, Rust 1.99.0, `n=100000`. Linux: GCC 16.1, Go 1.27.3, Rust 1.94.1, `n=300000`, inherited affinity CPUs 0–3, matching the preceding paired series. Crossbeam 0.5.17 and Tokio 1.54.1 remain locked. No compilation or sanitizer execution overlapped timing. Provenance and original-pipeline controls passed before timing; the first Mac provenance attempt was blocked by the sandbox at CPU discovery, before measurements, and the permitted run passed. All measured samples are retained; no series was rerun or trimmed.
+
+Median batch ns/message, lower is better. `n/a` means that engine does not support the scenario. The final column compares the reusable selector with the fastest applicable Rust engine. The complete tables include min/max for every configuration.
+
+| Host / scenario (capacity, workers) | C++ one-shot | C++ selector | Go | Tokio | Crossbeam | Selector / best Rust |
+|---|---:|---:|---:|---:|---:|---:|
+| Mac / ready (1, 1) | 35.7 | 24.8 | 40.6 | 22.1 | 21.4 | 1.159 |
+| Mac / mixed (1, 1) | 36.2 | 24.7 | 40.6 | 22.9 | 21.7 | 1.142 |
+| Mac / fanin (0, 1) | 209.8 | 114.0 | 103.9 | n/a | n/a | n/a |
+| Mac / fanin (0, 4) | 838.9 | 506.0 | 179.6 | n/a | 1387.6 | 0.365 |
+| Mac / fanin (1, 1) | 141.9 | 80.8 | 84.3 | 71.5 | n/a | 1.131 |
+| Mac / fanin (1, 4) | 535.3 | 337.1 | 149.2 | 254.5 | 133.2 | 2.532 |
+| Mac / fanin (64, 1) | 54.9 | 35.1 | 43.9 | 29.8 | n/a | 1.177 |
+| Mac / fanin (64, 4) | 143.5 | 101.7 | 114.8 | 63.7 | 54.0 | 1.883 |
+| Linux / ready (1, 1) | 44.7 | 30.7 | 59.9 | 51.8 | 28.5 | 1.078 |
+| Linux / mixed (1, 1) | 44.3 | 36.9 | 59.6 | 47.4 | 29.8 | 1.237 |
+| Linux / fanin (0, 1) | 258.6 | 108.4 | 154.1 | n/a | n/a | n/a |
+| Linux / fanin (0, 4) | 532.9 | 326.7 | 140.6 | n/a | 465.3 | 0.702 |
+| Linux / fanin (1, 1) | 181.5 | 82.3 | 148.7 | 147.2 | n/a | 0.559 |
+| Linux / fanin (1, 4) | 378.7 | 206.0 | 114.1 | 216.5 | 81.2 | 2.536 |
+| Linux / fanin (64, 1) | 87.6 | 45.1 | 61.1 | 52.5 | n/a | 0.858 |
+| Linux / fanin (64, 4) | 130.6 | 64.0 | 80.7 | 43.9 | 60.9 | 1.456 |
+
+The selector meets the 1.05× median target against the best applicable Rust engine on one of seven Rust-comparable scenarios on Mac (four-worker rendezvous) and three of seven on Linux (four-worker rendezvous, and single-worker capacity-one and capacity-64 fan-in). Capacity-zero single-worker fan-in has no applicable Rust engine. Universal parity is **not achieved**. Buffered four-worker fan-in remains the main gap: selector/Crossbeam is 2.53× on capacity one on both hosts; on capacity 64 the selector is 1.88× the best Rust engine on Mac and 1.46× on Linux. One-shot results are reported separately, not replaced by selector results.
+
+Against Go, the selector is faster on ready/mixed and buffered single-worker scenarios on both hosts, but slower on four-worker rendezvous (Mac 2.82×, Linux 2.32×) and capacity-one four-worker fan-in (2.26×, 1.81×). The Mac single-worker rendezvous is also slower than Go (1.10×); Linux is faster there (0.70×). Capacity-64 four-worker fan-in is faster than Go on these medians (0.89×, 0.79×).
+
+Compared with `macos-v4-fixed`, the selector medians change by less than 3% in every scenario. On Linux seven of eight selector medians change by at most 2%; mixed is +15%, within a distinctly bimodal series that also affects Go and Rust. There are 211/805 Linux samples more than 12% above their configuration minimum, versus 92/805 previously, and 16 configuration medians sit in the slower mode. The cause is unresolved; frequency management is a hypothesis. No samples are excluded and minima are not substituted for medians. For example the Linux mixed selector spans 29.3–38.0 ns/message; quote its median (36.9) with the spread. Mac capacity-one four-worker selector samples also have a wide span (174.3–346.9 ns/message, median 337.2), so its median must not be read as a stable latency guarantee. Raw samples, Linux activity snapshots and the per-configuration comparison are retained in the observation directories.
+
+These are throughput observations on dynamically managed, non-isolated hosts. They do not demonstrate latency percentiles or equivalent contracts: Tokio uses async MPSC, Crossbeam blocking MPMC, and Go runtime-scheduled channels. Tokio has no capacity-zero result; Crossbeam fan-in cannot use this topology with one worker. The withdrawal regression now observes actual mutex acquisition and rejects the faithful lock-bypassed mutant; benchmarks remain supplementary to correctness controls.
